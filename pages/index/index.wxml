@@ -169,7 +169,33 @@
                 <view class="hot-ranking-item">
                     <navigator>
                         <image src="../images/santi.png" />
-                        
+                        <view class="detail-wrap">
+                            <view class="book-name">
+                                三体：死神永生
+                                <text class="menu" decode="true">· · ·</text>
+                            </view>
+                            <view class="author-name">作者：刘慈欣</view>
+                        </view>
+                        <view class="detail">
+                            <text >刘慈欣创作的系列长篇科幻小说</text>
+                            <text >地球往事三部曲的第三步作品...</text>
+                        </view>
+                    </navigator>
+                </view>
+                <view class="hot-ranking-item">
+                    <navigator>
+                        <image src="../images/santi.png" />
+                        <view class="detail-wrap">
+                            <view class="book-name">
+                                三体：死神永生
+                                <text class="menu" decode="true">· · ·</text>
+                            </view>
+                            <view class="author-name">作者：刘慈欣</view>
+                        </view>
+                        <view class="detail">
+                            <text >刘慈欣创作的系列长篇科幻小说</text>
+                            <text >地球往事三部曲的第三步作品...</text>
+                        </view>
                     </navigator>
                 </view>
             </view>

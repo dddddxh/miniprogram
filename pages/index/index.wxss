@@ -66,15 +66,17 @@
 }
 
 .ranking-list {
-    width: 750rpx;
+    /* width: 200%; */
+    width: 100%;
     margin-left: 48rpx;
     display: flex;
-    justify-content: space-between;
-    border-bottom: 1rpx solid #2f343c;
+    justify-content: space-around; 
+    border-bottom: 2rpx solid #2f343c;
 }
 
 .ranking-list .ranking-item {
     width: 160rpx;
+    margin-right: 30rpx;
 }
 
 .ranking-list .ranking-item image {
@@ -96,7 +98,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    border-bottom: 1rpx solid #2f343c;
+    border-bottom: 2rpx solid #2f343c;
 }
 
 .new-list .new-list-item {
@@ -124,7 +126,7 @@
     box-sizing: border-box;
     padding: 0px 0rpx 14rpx 48rpx;
     margin-right: -10rpx;
-    border-bottom: 1rpx solid #2f343c;
+    border-bottom: 2rpx solid #2f343c;
 }
 
 .hot-wrap .title {
@@ -166,7 +168,9 @@
     margin-bottom: 24rpx;
     padding: 0px 35rpx;
 }
-
+.hot-ranking-wrap{
+    margin-bottom: 86rpx;
+}
 .hot-ranking-wrap .title-wrap {
     width: 650rpx;
     margin: auto;
@@ -188,17 +192,20 @@
 }
 
 .hot-ranking-list {
-    width: 750rpx;
-    margin-left: 48rpx;
-    display: flex;
-    justify-content: space-between;
+    width: 200%;
+    margin-left: 18rpx;
+    /* display: flex; */
+    /* justify-content: space-between; */
 }
 
 .hot-ranking-item {
+    float: left;
     background-color: #2b323b;
+    border-radius: 12rpx;
     width: 600rpx;
     height: 250rpx;
     position: relative;
+    margin: 0px 30rpx;
 }
 
 .hot-ranking-item image {
@@ -209,4 +216,46 @@
     bottom: 30rpx;
     left: 30rpx;
     margin-right: 30rpx;
+}
+
+.hot-ranking-item .detail-wrap {
+    float: right;
+    margin-right: 24rpx;
+    width: 344rpx;
+    border-bottom: 2px solid #363d47;
+}
+
+.hot-ranking-item .detail-wrap .book-name {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30rpx;
+    margin-bottom: 10rpx;
+}
+
+.hot-ranking-item .detail-wrap .book-name .menu {
+    /* line-height: 22rpx; */
+    color: #969baf;
+    font-size: 26rpx;
+    font-weight: bold;
+}
+
+.hot-ranking-item .detail-wrap .author-name {
+    font-size: 26rpx;
+    color: #5d637c;
+    margin-bottom: 25rpx;
+}
+
+.hot-ranking-item .detail {
+    float: right;
+    margin-right: 24rpx;
+    width: 344rpx;
+    font-size: 24rpx;
+    color: #868dab;
+    display: flow-root;
+    /* margin-top: 16rpx; */
+}
+
+.hot-ranking-item .detail text {
+    margin-top: 8rpx;
+    display: flow-root;
 }
