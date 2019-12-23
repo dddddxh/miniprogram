@@ -1,4 +1,7 @@
 <!-- pages/explore/explore.wxml -->
 <view class="container">
-    
+    <view class="view-change">
+        <text class="iconfont icon-fangkuai"></text>
+        <text class="iconfont icon-fangkuai1"></text>
+    </view>
 </view>

@@ -1,1 +1,7 @@
 /* pages/explore/explore.wxss */
+
+.view-change {
+    text-align: right;
+}
+
+.view-change .iconfont {}
