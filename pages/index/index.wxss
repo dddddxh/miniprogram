@@ -1,21 +1,212 @@
 /**index.wxss**/
-.userinfo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+
+.container .header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 48rpx 48rpx;
 }
 
-.userinfo-avatar {
-  width: 128rpx;
-  height: 128rpx;
-  margin: 20rpx;
-  border-radius: 50%;
+.container .header-wrapper navigator text {
+    font-size: 32rpx;
 }
 
-.userinfo-nickname {
-  color: #aaa;
+.container .scarch-wrapper {
+    position: relative;
 }
 
-.usermotto {
-  margin-top: 200px;
+.container .scarch-wrapper .scarch-input {
+    width: 650rpx;
+    height: 96rpx;
+    margin: auto;
+    position: relative;
+}
+
+.container .scarch-wrapper .scarch-input input {
+    height: 95rpx;
+    background: #2d353d;
+    border-radius: 50rpx;
+    padding-left: 85rpx;
+}
+
+.container .scarch-wrapper .scarch-input .place {
+    color: #9da3b4;
+    font-size: 32rpx;
+}
+
+.container .scarch-wrapper .scarch-input .icon-sousuo {
+    color: #9da3b4;
+    margin-left: 28rpx;
+    position: absolute;
+    top: 30rpx;
+    font-size: 40rpx;
+}
+
+.class-ranking-wrap .title-wrap {
+    width: 650rpx;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60rpx;
+    margin-bottom: 50rpx;
+}
+
+.class-ranking-wrap .title-wrap .more-rank {
+    font-size: 24rpx;
+    color: #9da3b4;
+}
+
+.ranking-wrap {
+    overflow-y: scroll;
+}
+
+.ranking-wrap::-webkit-scrollbar {
+    display: none;
+}
+
+.ranking-list {
+    width: 750rpx;
+    margin-left: 48rpx;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1rpx solid #2f343c;
+}
+
+.ranking-list .ranking-item {
+    width: 160rpx;
+}
+
+.ranking-list .ranking-item image {
+    width: 160rpx;
+    height: 160rpx;
+    border-radius: 12rpx;
+}
+
+.ranking-list .ranking-item .detail {
+    display: inline-block;
+    margin-top: 22rpx;
+    margin-bottom: 56rpx;
+    font-size: 28rpx;
+}
+
+.new-list {
+    box-sizing: border-box;
+    padding: 0px 48rpx;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-bottom: 1rpx solid #2f343c;
+}
+
+.new-list .new-list-item {
+    margin-bottom: 80rpx;
+    margin-top: 16rpx;
+}
+
+.new-list .new-list-item image {
+    width: 192rpx;
+    height: 296rpx;
+    border-radius: 12rpx;
+}
+
+.new-list .new-list-item .book {
+    font-size: 26rpx;
+    margin-top: 30rpx;
+}
+
+.new-list .new-list-item .author-name {
+    font-size: 26rpx;
+    color: #5d637c;
+}
+
+.hot-wrap {
+    box-sizing: border-box;
+    padding: 0px 0rpx 14rpx 48rpx;
+    margin-right: -10rpx;
+    border-bottom: 1rpx solid #2f343c;
+}
+
+.hot-wrap .title {
+    margin-top: 68rpx;
+    margin-bottom: 50rpx;
+}
+
+.pink {
+    border: 2rpx solid #f54d82;
+    color: #f54d82;
+}
+
+.green {
+    border: 2rpx solid #59b080;
+    color: #59b080;
+}
+
+.violet {
+    border: 2rpx solid #9060e8;
+    color: #9060e8;
+}
+
+.yellow {
+    border: 2rpx solid #ded658;
+    color: #ded658;
+}
+
+.hot-wrap .option-list {
+    margin-right: -10rpx;
+}
+
+.hot-wrap .option-list .option-item {
+    text-align: center;
+    font-size: 28rpx;
+    line-height: 50rpx;
+    display: inline-block;
+    border-radius: 50rpx;
+    margin-right: 30rpx;
+    margin-bottom: 24rpx;
+    padding: 0px 35rpx;
+}
+
+.hot-ranking-wrap .title-wrap {
+    width: 650rpx;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 70rpx;
+    margin-bottom: 110rpx;
+}
+
+.hot-ranking-wrap .ranking-wrap {
+    box-sizing: border-box;
+    padding-top: 30rpx;
+}
+
+.hot-ranking-wrap .title-wrap .more-rank {
+    font-size: 24rpx;
+    color: #9da3b4;
+}
+
+.hot-ranking-list {
+    width: 750rpx;
+    margin-left: 48rpx;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hot-ranking-item {
+    background-color: #2b323b;
+    width: 600rpx;
+    height: 250rpx;
+    position: relative;
+}
+
+.hot-ranking-item image {
+    width: 168rpx;
+    height: 250rpx;
+    border-radius: 12rpx;
+    position: absolute;
+    bottom: 30rpx;
+    left: 30rpx;
+    margin-right: 30rpx;
 }

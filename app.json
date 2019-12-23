@@ -1,14 +1,53 @@
 {
   "pages": [
     "pages/index/index",
+    "pages/explore/explore",
+    "pages/bookrack/bookrack",
+    "pages/my/my",
     "pages/logs/logs"
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle": "black"
+    "navigationBarBackgroundColor": "#21272e",
+    "navigationBarTitleText": "",
+    "navigationBarTextStyle": "white",
+    "backgroundColor":"#21272e",
+    "enablePullDownRefresh":true
   },
   "style": "v2",
-  "sitemapLocation": "sitemap.json"
+  "sitemapLocation": "sitemap.json",
+
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#2a313a",
+    "list": [{
+        "pagePath": "pages/index/index",
+        "text": "",
+        "iconPath": "pages/images/icon-default/home.png",
+        "selectedIconPath": "pages/images/icon-pink/home.png"
+      },
+      {
+        "pagePath": "pages/explore/explore",
+        "text": "",
+        "iconPath": "pages/images/icon-default/xingqiu.png",
+        "selectedIconPath": "pages/images/icon-pink/xingqiu.png"
+      },
+      {
+        "pagePath": "pages/bookrack/bookrack",
+        "text": "",
+        "iconPath": "pages/images/icon-default/shu.png",
+        "selectedIconPath": "pages/images/icon-pink/shu.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "",
+        "iconPath": "pages/images/icon-default/wo.png",
+        "selectedIconPath": "pages/images/icon-pink/wo.png"
+        
+      }
+      
+    ]
+  }
 }
