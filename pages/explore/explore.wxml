@@ -1,4 +1,57 @@
 <!-- pages/explore/explore.wxml -->
 <view class="container">
+    <view class="view-change">
+        <text class='iconfont icon-pailie {{cur == 1? "active":""}}' data-cur='1' bindtap="change"></text>
+        <text class='iconfont icon-fangkuai {{cur == 2? "active":""}}' data-cur='2' bindtap="change"></text>
+    </view>
+    <view wx:if="{{cur == 2}}">
+        <view class="content">
+            <view class="book-cover">
+                <image src="../images/santi.png" />
+            </view>
+            <view class="book-detail">
+                <view class="book-name">三体：死神永生</view>
+                <view class="author">刘慈欣</view>
+            </view>
+        </view>
+        <view class="reader-wrap">
+            <view class="reader-list">
+                <view class="reader-item">
+                    <navigator url="">
+                        <image src="../images/user-1.png" />
+                    </navigator>
+                </view>
+                <view class="reader-item">
+                    <navigator url="">
+                        <image src="../images/user-2.png" />
+                    </navigator>
+                </view>
+                <view class="reader-item">
+                    <navigator url="">
+                        <image src="../images/user-3.png" />
+                    </navigator>
+                </view>
+                <view class="reader-item">
+                    <navigator url="">
+                        <image src="../images/user-4.png" />
+                    </navigator>
+                </view>
+            </view>
+            <view class="count">
+                <text class="num">457</text>
+                <text>人已阅读</text>
+            </view>
+            <view class="recommend">
+                <navigator>
+                    <image src="../images/maerkesi.png" />
+                    <view class="rec-name">
+                        陈小冬
+                        <view class="act">推荐</view>
+                    </view>
+                </navigator>
+            </view>
+        </view>
+    </view>
+
     
 </view>
