@@ -1,23 +1,28 @@
 /* pages/classify/classify.wxss */
+
 .scarch-wrapper {
     position: relative;
 }
+
 .scarch-wrapper .scarch-input {
     width: 650rpx;
     height: 96rpx;
     margin: auto;
     position: relative;
 }
+
 .scarch-wrapper .scarch-input input {
     height: 95rpx;
     background: #2d353d;
     border-radius: 50rpx;
     padding-left: 85rpx;
 }
+
 .scarch-wrapper .scarch-input .place {
     color: #9da3b4;
     font-size: 32rpx;
 }
+
 .scarch-wrapper .scarch-input .icon-sousuo {
     color: #9da3b4;
     margin-left: 28rpx;
@@ -25,6 +30,75 @@
     top: 26rpx;
     font-size: 40rpx;
 }
-.sort-wrap .sort-list .sort-item{
+
+.sort-wrap {
+    overflow-y: scroll;
+}
+
+.sort-wrap::-webkit-scrollbar {
+    display: none;
+}
+
+.sort-wrap .sort-list {
+    width: 105%;
+    height: 78rpx;
+    padding-left: 38rpx;
+    margin-top: 70rpx;
+    border-bottom: 2rpx solid #2d353d;
+    text-align: center;
+}
+
+.sort-wrap .sort-list .sort-item {
     width: 130rpx;
+    float: left;
+    padding-bottom: 36rpx;
+}
+
+.sort-wrap .sort-list .active {
+    border-bottom: 2rpx solid #fb6894;
+}
+
+.class-ranking-wrap .title-wrap {
+    width: 650rpx;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60rpx;
+    margin-bottom: 50rpx;
+}
+
+.class-ranking-wrap .title-wrap .more-rank {
+    font-size: 24rpx;
+    color: #9da3b4;
+}
+
+.new-list {
+    box-sizing: border-box;
+    padding: 0px 48rpx;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-bottom: 2rpx solid #2f343c;
+}
+
+.new-list .new-list-item {
+    margin-bottom: 80rpx;
+    margin-top: 16rpx;
+}
+
+.new-list .new-list-item image {
+    width: 192rpx;
+    height: 296rpx;
+    border-radius: 12rpx;
+}
+
+.new-list .new-list-item .book {
+    font-size: 26rpx;
+    margin-top: 30rpx;
+}
+
+.new-list .new-list-item .author-name {
+    font-size: 26rpx;
+    color: #5d637c;
 }

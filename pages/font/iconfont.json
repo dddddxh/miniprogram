@@ -69,6 +69,13 @@
       "unicode_decimal": 58638
     },
     {
+      "icon_id": "4108167",
+      "name": "书架",
+      "font_class": "shujia",
+      "unicode": "e63d",
+      "unicode_decimal": 58941
+    },
+    {
       "icon_id": "6611225",
       "name": "回复",
       "font_class": "huifu",
