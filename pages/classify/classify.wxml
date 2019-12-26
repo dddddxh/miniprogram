@@ -1,0 +1,29 @@
+<!-- pages/classify/classify.wxml -->
+<view class="scarch-wrapper">
+    <view class="scarch-input">
+        <input type="text" placeholder-class="place" placeholder="搜索..." />
+        <view class="iconfont icon-sousuo"></view>
+    </view>
+</view>
+<view class="sort-wrap">
+    <view class="sort-list">
+        <view class="sort-item">
+            <text class="title">科幻</text>
+        </view>
+        <view class="sort-item">
+            <text class="title">职场</text>
+        </view>
+        <view class="sort-item">
+            <text class="title">言情</text>
+        </view>
+        <view class="sort-item">
+            <text class="title">艺术</text>
+        </view>
+        <view class="sort-item">
+            <text class="title">科学</text>
+        </view>
+        <view class="sort-item">
+            <text class="title">军事</text>
+        </view>
+    </view>
+</view>

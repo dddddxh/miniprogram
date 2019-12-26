@@ -1,0 +1,73 @@
+.header {
+    text-align: right;
+    padding-right: 48rpx;
+    box-sizing: border-box;
+    background: #21272e;
+    width: 100%;
+    position: fixed;
+    top: 0rpx;
+    right: 0rpx;
+    z-index: 1;
+}
+
+.hot-ranking-item {
+    /* float: left; */
+    background-color: #2b323b;
+    border-radius: 12rpx;
+    width: 654rpx;
+    height: 250rpx;
+    position: relative;
+    margin: 92rpx auto;
+}
+
+.hot-ranking-item image {
+    width: 168rpx;
+    height: 250rpx;
+    border-radius: 12rpx;
+    position: absolute;
+    bottom: 30rpx;
+    left: 30rpx;
+    margin-right: 30rpx;
+}
+
+.hot-ranking-item .detail-wrap {
+    float: right;
+    margin-right: 24rpx;
+    width: 400rpx;
+    border-bottom: 2px solid #363d47;
+}
+
+.hot-ranking-item .detail-wrap .book-name {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30rpx;
+    margin-bottom: 10rpx;
+}
+
+.hot-ranking-item .detail-wrap .book-name .menu {
+    /* line-height: 22rpx; */
+    color: #969baf;
+    font-size: 26rpx;
+    font-weight: bold;
+}
+
+.hot-ranking-item .detail-wrap .author-name {
+    font-size: 26rpx;
+    color: #5d637c;
+    margin-bottom: 25rpx;
+}
+
+.hot-ranking-item .detail {
+    float: right;
+    margin-right: 24rpx;
+    width: 400rpx;
+    font-size: 24rpx;
+    color: #868dab;
+    display: flow-root;
+    /* margin-top: 16rpx; */
+}
+
+.hot-ranking-item .detail text {
+    margin-top: 8rpx;
+    display: flow-root;
+}

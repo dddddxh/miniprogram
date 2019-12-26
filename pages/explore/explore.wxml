@@ -52,6 +52,34 @@
             </view>
         </view>
     </view>
-
-    
+    <view wx:else>
+        <view class="book-wrap">
+            <view class="book-list">
+                <view class="book-item">
+                    <navigator>
+                        <image src="../images/santi.png" />
+                        <view class="book-name">三体：死神永生</view>
+                    </navigator>
+                </view>
+                <view class="book-item">
+                    <navigator>
+                        <image src="../images/bainiangudu.png" />
+                        <view class="book-name">百年孤独</view>
+                    </navigator>
+                </view>
+                <view class="book-item">
+                    <navigator>
+                        <image src="../images/pingfanshijie.png" />
+                        <view class="book-name">平凡的世界</view>
+                    </navigator>
+                </view>
+                <view class="book-item">
+                    <navigator>
+                        <image src="../images/weilaijianshi.png" />
+                        <view class="book-name">未来简史</view>
+                    </navigator>
+                </view>
+            </view>
+        </view>
+    </view>
 </view>

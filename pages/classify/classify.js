@@ -1,17 +1,11 @@
-// pages/explore/explore.js
-const app = getApp()
+// pages/classify/classify.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    cur:1,
-  },
-  change:function(e){
-    this.setData({
-      cur:e.target.dataset.cur
-    })
+
   },
 
   /**
