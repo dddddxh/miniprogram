@@ -1,11 +1,17 @@
 // pages/explore/explore.js
+const app = getApp()
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    cur:2,
+  },
+  change:function(e){
+    this.setData({
+      cur:e.target.dataset.cur
+    })
   },
 
   /**

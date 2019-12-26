@@ -6,7 +6,7 @@
             <text class="iconfont icon-jiangbei"></text>
         </navigator>
         <navigator>
-            <text class="iconfont icon-qingdan"></text>
+            <text class="iconfont icon-list"></text>
         </navigator>
     </view>
     <!-- 搜索 -->
