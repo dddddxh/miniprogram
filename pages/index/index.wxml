@@ -27,7 +27,7 @@
         <view class="ranking-wrap">
             <view class="ranking-list">
                 <view class="ranking-item">
-                    <navigator url="">
+                    <navigator url="../fantasy/fantasy">
                         <image src="../images/kehuan.png" alt="" />
                         <text class="detail">科幻</text>
                     </navigator>

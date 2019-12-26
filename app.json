@@ -1,9 +1,10 @@
 {
   "pages": [
-    "pages/explore/explore",
-    "pages/index/index",
-    "pages/bookrack/bookrack",
     "pages/my/my",
+    "pages/bookrack/bookrack",
+    "pages/index/index",
+    "pages/explore/explore",
+    "pages/fantasy/fantasy",
     "pages/logs/logs"
   ],
   "window": {

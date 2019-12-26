@@ -6,6 +6,20 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "421455",
+      "name": "下",
+      "font_class": "xia",
+      "unicode": "e659",
+      "unicode_decimal": 58969
+    },
+    {
+      "icon_id": "1148924",
+      "name": "右",
+      "font_class": "zuo",
+      "unicode": "e605",
+      "unicode_decimal": 58885
+    },
+    {
       "icon_id": "1206343",
       "name": "分享",
       "font_class": "fenxiang",
@@ -34,6 +48,13 @@
       "unicode_decimal": 59296
     },
     {
+      "icon_id": "3185560",
+      "name": "左",
+      "font_class": "zuo1",
+      "unicode": "e6d1",
+      "unicode_decimal": 59089
+    },
+    {
       "icon_id": "3279187",
       "name": "方块",
       "font_class": "fangkuai",
@@ -55,6 +76,13 @@
       "unicode_decimal": 59232
     },
     {
+      "icon_id": "7509566",
+      "name": "上",
+      "font_class": "shangfang",
+      "unicode": "e623",
+      "unicode_decimal": 58915
+    },
+    {
       "icon_id": "8576896",
       "name": "奖杯",
       "font_class": "jiangbei",
@@ -67,6 +95,13 @@
       "font_class": "xiepinglun",
       "unicode": "e6ac",
       "unicode_decimal": 59052
+    },
+    {
+      "icon_id": "9492424",
+      "name": "设 置",
+      "font_class": "shezhi",
+      "unicode": "e71b",
+      "unicode_decimal": 59163
     },
     {
       "icon_id": "9559029",

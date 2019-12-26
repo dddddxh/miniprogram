@@ -1,2 +1,91 @@
-<!--pages/bookrack/bookrack.wxml-->
-<text>pages/bookrack/bookrack.wxml</text>
+<!-- pages/bookrack/bookrack.wxml -->
+<view class="header">
+    <text class="iconfont icon-list"></text>
+</view>
+<view class="reading-wrap">
+    <view class="title-wrap">
+        <text class="title">正在阅读</text>
+        <navigator url="">
+            <text class="more-rank" decode="true">查看全部&emsp;></text>
+        </navigator>
+    </view>
+    <view class="newest-wrap">
+        <view class="new-list">
+            <view class="new-list-item">
+                <navigator url="">
+                    <image src="../images/santi.png" />
+                    <view class="book">三体：死神永生</view>
+                    <text class="author-name">刘慈欣</text>
+                </navigator>
+            </view>
+            <view class="new-list-item">
+                <navigator url="">
+                    <image src="../images/renleijianshi.png" />
+                    <view class="book">人类简史</view>
+                    <text class="author-name">尤瓦尔·郝拉利</text>
+                </navigator>
+            </view>
+            <view class="new-list-item">
+                <navigator url="">
+                    <image src="../images/xusanguan.png" />
+                    <view class="book">许三观卖血记</view>
+                    <text class="author-name">余华</text>
+                </navigator>
+            </view>
+        </view>
+    </view>
+</view>
+<view class="unread-wrap">
+    <view class="title-wrap">
+        <text class="title">未读</text>
+        <navigator url="">
+            <text class="more-rank" decode="true">查看全部&emsp;></text>
+        </navigator>
+    </view>
+    <view class="newest-wrap">
+        <view class="new-list">
+            <view class="new-list-item">
+                <navigator url="">
+                    <image src="../images/weilaijianshi.png" />
+                    <view class="book">未来简史</view>
+                    <text class="author-name">尤瓦尔·郝拉利</text>
+                </navigator>
+            </view>
+            <view class="new-list-item">
+                <navigator url="">
+                    <image src="../images/zisijiyin.png" />
+                    <view class="book">自私的基因</view>
+                    <text class="author-name">理查德·道金斯</text>
+                </navigator>
+            </view>
+            <view class="new-list-item">
+                <navigator url="">
+                    <image src="../images/bainiangudu.png" />
+                    <view class="book">百年孤独</view>
+                    <text class="author-name">马尔克斯</text>
+                </navigator>
+            </view>
+            <view class="new-list-item">
+                <navigator url="">
+                    <image src="../images/weilaijianshi.png" />
+                    <view class="book">未来简史</view>
+                    <text class="author-name">尤瓦尔·郝拉利</text>
+                </navigator>
+            </view>
+            <view class="new-list-item">
+                <navigator url="">
+                    <image src="../images/zisijiyin.png" />
+                    <view class="book">自私的基因</view>
+                    <text class="author-name">理查德·道金斯</text>
+                </navigator>
+            </view>
+            <view class="new-list-item">
+                <navigator url="">
+                    <image src="../images/bainiangudu.png" />
+                    <view class="book">百年孤独</view>
+                    <text class="author-name">马尔克斯</text>
+                </navigator>
+            </view>
+        </view>
+    </view>
+</view>
