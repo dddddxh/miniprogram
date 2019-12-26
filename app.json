@@ -1,10 +1,10 @@
 {
   "pages": [
-    "pages/my/my",
     "pages/classify/classify",
-    "pages/bookrack/bookrack",
     "pages/index/index",
     "pages/explore/explore",
+    "pages/bookrack/bookrack",
+    "pages/my/my",
     "pages/fantasy/fantasy",
     "pages/logs/logs"
   ],
