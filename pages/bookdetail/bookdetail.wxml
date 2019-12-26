@@ -1,0 +1,38 @@
+<!-- pages/bookdetail/bookdetail.wxml -->
+<view class="container">
+    <view class="book-wrap">
+        <view class="book-cover">
+            <image src="../images/santi.png" />
+        </view>
+        <view class="book-set">
+            <view class="book-name">三体：死神永生</view>
+            <view class="book-author">作者：刘慈欣</view>
+            <view class="book-detail">
+                <text>刘慈欣创作的系列长篇科幻小说地</text>
+                <text>球往事三部曲的第三部作品...</text>
+            </view>
+            <view class="score-wrap">
+                <text class="iconfont icon-xing"></text>
+                <text class="iconfont icon-xing"></text>
+                <text class="iconfont icon-xing"></text>
+                <text class="iconfont icon-xing"></text>
+                <text class="iconfont icon-xing"></text>
+                <text class="score">5.0</text>
+            </view>
+        </view>
+    </view>
+    <view class="option-wrap">
+        <view class="item">
+            <text class="iconfont icon-xin "></text>
+            <text>收藏</text>
+        </view>
+        <view class="item">
+            <text class="iconfont icon-fenxiang"></text>
+            <text>收藏</text>
+        </view>
+        <view class="item">
+            <text class="iconfont icon-shujia"></text>
+            <text>放入书架</text>
+        </view>
+    </view>
+</view>

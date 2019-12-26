@@ -1,0 +1,62 @@
+/* pages/bookdetail/bookdetail.wxss */
+.container{
+    box-sizing: border-box;
+    padding: 0rpx 48rpx;
+
+}
+.book-wrap{
+    display: flow-root;
+}
+.book-wrap .book-cover{
+    float: left;
+    margin-right: 32rpx;
+}
+.book-wrap .book-cover image{
+    width: 216rpx;
+    height: 320rpx;
+}
+.book-wrap .book-set{
+    display: flow-root;
+}
+.book-wrap .book-set .book-name{
+    margin-top: 45rpx;
+}
+.book-wrap .book-set .book-author{
+    font-size: 28rpx;
+    color: #828d9a;
+    margin-top: 26rpx;
+}
+.book-wrap .book-set .book-detail{
+    color: #868dab;
+    font-size: 24rpx;
+    margin-top: 26rpx;
+}
+.book-wrap .book-set .score-wrap{
+    margin-top: 36rpx;
+}
+.book-wrap .book-set .score-wrap .iconfont{
+    margin: 0rpx 4rpx;
+    color: #fb6894;
+    font-size: 28rpx;
+}
+.book-wrap .book-set .score-wrap .score{
+    font-size: 36rpx;
+    color: #ffce44;
+    margin-left: 32rpx;
+}
+.option-wrap{
+    height: 120rpx;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 2rpx solid #323643;
+    border-top: 2rpx solid #323643;
+    margin-top: 64rpx;
+}
+.option-wrap .item .iconfont{
+    color: #70758b;
+    margin-right: 30rpx;
+    font-size: 40rpx;
+}
+
+

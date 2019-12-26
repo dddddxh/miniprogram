@@ -9,6 +9,7 @@ Page({
     cur:1,
   },
   change:function(e){
+    console.log(e)
     this.setData({
       cur:e.target.dataset.cur
     })

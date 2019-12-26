@@ -1,8 +1,9 @@
 {
   "pages": [
-    "pages/classify/classify",
     "pages/index/index",
+    "pages/bookdetail/bookdetail",
     "pages/explore/explore",
+    "pages/classify/classify",
     "pages/bookrack/bookrack",
     "pages/my/my",
     "pages/fantasy/fantasy",

@@ -1,17 +1,11 @@
-// pages/classify/classify.js
+// pages/bookdetail/bookdetail.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    cur: 1
-  },
-  change: function (e) {
-    // console.log(e)
-    this.setData({
-      cur: e.currentTarget.dataset.cur
-    })
+
   },
 
   /**

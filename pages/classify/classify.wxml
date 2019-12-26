@@ -7,23 +7,110 @@
 </view>
 <view class="sort-wrap">
     <view class="sort-list">
-        <view class="sort-item">
+        <view class="sort-item {{cur == 1? 'active':''}}" data-cur="1" bindtap="change">
             <text class="title">科幻</text>
         </view>
-        <view class="sort-item">
+        <view class="sort-item {{cur == 2? 'active':''}}" data-cur="2" bindtap="change">
             <text class="title">职场</text>
         </view>
-        <view class="sort-item">
+        <view class="sort-item {{cur == 3? 'active':''}}" data-cur="3" bindtap="change">
             <text class="title">言情</text>
         </view>
-        <view class="sort-item">
+        <view class="sort-item {{cur == 4? 'active':''}}" data-cur="4" bindtap="change">
             <text class="title">艺术</text>
         </view>
-        <view class="sort-item">
+        <view class="sort-item {{cur == 5? 'active':''}}" data-cur="5" bindtap="change">
             <text class="title">科学</text>
         </view>
-        <view class="sort-item">
+        <view class="sort-item {{cur == 6? 'active':''}}" data-cur="6" bindtap="change">
             <text class="title">军事</text>
+        </view>
+    </view>
+</view>
+<view class="class-ranking-wrap">
+    <view class="title-wrap">
+        <text class="title">新上架</text>
+        <navigator class="more-rank" url="">
+            <text class="" decode="true">查看全部&emsp;></text>
+        </navigator>
+    </view>
+    <view class="newest-wrap">
+        <view class="new-list">
+            <view class="new-list-item">
+                <navigator url="">
+                    <image src="../images/santi.png" />
+                    <view class="book">三体：死神永生</view>
+                    <text class="author-name">刘慈欣</text>
+                </navigator>
+            </view>
+            <view class="new-list-item">
+                <navigator url="">
+                    <image src="../images/xiangcunjiaoshi.png" />
+                    <view class="book">乡村教师</view>
+                    <text class="author-name">刘慈欣</text>
+                </navigator>
+            </view>
+            <view class="new-list-item">
+                <navigator url="">
+                    <image src="../images/niyisheng.png" />
+                    <view class="book">你一生的故事</view>
+                    <text class="author-name">特德·姜</text>
+                </navigator>
+            </view>
+        </view>
+    </view>
+</view>
+<view class="class-ranking-wrap">
+    <view class="title-wrap">
+        <text class="title">热门</text>
+        <navigator class="more-rank" url="">
+            <text class="" decode="true">查看全部&emsp;></text>
+        </navigator>
+    </view>
+    <view class="newest-wrap">
+        <view class="new-list">
+            <view class="new-list-item">
+                <navigator url="">
+                    <image src="../images/ruanjianti.png" />
+                    <view class="book">软件体的生命期</view>
+                    <text class="author-name">特德·姜</text>
+                </navigator>
+            </view>
+            <view class="new-list-item">
+                <navigator url="">
+                    <image src="../images/dashideshengyan.png" />
+                    <view class="book">大师的盛宴</view>
+                    <text class="author-name">奥森斯科特·卡德</text>
+                </navigator>
+            </view>
+            <view class="new-list-item">
+                <navigator url="">
+                    <image src="../images/shangdi.png" />
+                    <view class="book">计算中的上帝</view>
+                    <text class="author-name">罗伯特·索耶</text>
+                </navigator>
+            </view>
+            <view class="new-list-item">
+                <navigator url="">
+                    <image src="../images/weilaijianshi.png" />
+                    <view class="book">未来简史</view>
+                    <text class="author-name">尤瓦尔·郝拉利</text>
+                </navigator>
+            </view>
+            <view class="new-list-item">
+                <navigator url="">
+                    <image src="../images/zisijiyin.png" />
+                    <view class="book">自私的基因</view>
+                    <text class="author-name">理查德·道金斯</text>
+                </navigator>
+            </view>
+            <view class="new-list-item">
+                <navigator url="">
+                    <image src="../images/bainiangudu.png" />
+                    <view class="book">百年孤独</view>
+                    <text class="author-name">马尔克斯</text>
+                </navigator>
+            </view>
         </view>
     </view>
 </view>
