@@ -97,6 +97,13 @@
       "unicode_decimal": 59052
     },
     {
+      "icon_id": "8819627",
+      "name": "星",
+      "font_class": "xing",
+      "unicode": "e6bb",
+      "unicode_decimal": 59067
+    },
+    {
       "icon_id": "9492424",
       "name": "设 置",
       "font_class": "shezhi",

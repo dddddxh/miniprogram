@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/classify/classify",
     "pages/my/my",
     "pages/bookrack/bookrack",
     "pages/index/index",
