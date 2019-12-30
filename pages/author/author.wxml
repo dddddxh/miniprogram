@@ -1,0 +1,7 @@
+<!--pages/author/author.wxml-->
+<view class="header">
+    <text class="iconfont icon-list"></text>
+</view>
+<view class="top-author">
+    
+</view>

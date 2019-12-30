@@ -1,0 +1,12 @@
+/* pages/author/author.wxss */
+.header {
+    text-align: right;
+    padding-right: 48rpx;
+    box-sizing: border-box;
+    background: #21272e;
+    width: 100%;
+    position: fixed;
+    top: 0rpx;
+    right: 0rpx;
+    z-index: 1;
+}

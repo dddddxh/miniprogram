@@ -28,11 +28,100 @@
         </view>
         <view class="item">
             <text class="iconfont icon-fenxiang"></text>
-            <text>收藏</text>
+            <text>分享</text>
         </view>
         <view class="item">
             <text class="iconfont icon-shujia"></text>
             <text>放入书架</text>
         </view>
     </view>
+    <view class="detail-wrap">
+        <view class="title">详情</view>
+        <view class="detail">
+            <text>与三体文明的战争使人类第一次看到了宇宙黑暗的真</text>
+            <text>相，地球文明像一个恐惧的孩子，熄灭了寻友的篝火，</text>
+            <text>在暗夜中发抖。自以为历经沧桑，其实刚刚蹒跚学</text>
+            <text>步;自以为悟出了生存竞争的秘密，其实还远没有竞</text>
+            <text>争的资格。</text>
+        </view>
+    </view>
+    <view class="check-directory">
+        <text>查看目录</text>
+        <text class="iconfont icon-zuo"></text>
+    </view>
+    <view class="comment-wrap">
+        <view class="wrapper">
+            <view class="title">评论</view>
+            <view class="option">
+                <navigator url="../comment/comment">
+                    <text class="count" decode="{{true}}">215&ensp;条评论</text>
+                </navigator>
+                <text class="iconfont icon-xiepinglun"></text>
+            </view>
+        </view>
+        <view class="comment-item">
+            <view class="user-info">
+                <image src="../images/user-1.png" />
+                <text class="user-name">你个废物</text>
+            </view>
+            <view class="comment-content">
+                <text>大刘塑造的女性都具有明显的圣母特质，但是本质上</text>
+                <text>弱爆了。叶是文革的毒瘤，庄是定制禁脔，程最经典</text>
+                <text>——站在圣母和傻逼的微笑曲线上。大刘塑造的男性</text>
+                <text>都带有明显的缺陷但本质上极端人性化。一身痞气的</text>
+                <text>小人物大史，最高情商让他活得最明白；罗辑的荒唐</text>
+                <text>和不羁让他成了救世主，但也决定了他必不能善终；</text>
+                <text>软弱怯懦固执的云天明，也并无理由因为慷慨和运气</text>
+                <text>就得到爱啊。但我真心理解这样的人，这样的性格，</text>
+                <text>这样的命运。</text>
+            </view>
+            <view class="comment-info">
+                <text class="time" decode="{{true}}">12-04&ensp;21:20</text>
+                <view class="comment-data">
+                    <view class="like">
+                        <text class="iconfont icon-xin"></text>
+                        <text>134</text>
+                    </view>
+                    <view class="comment">
+                        <text class="iconfont icon-huifu"></text>
+                        <text>89</text>
+                    </view>
+                </view>
+            </view>
+        </view>
+        <view class="comment-item">
+            <view class="user-info">
+                <image src="../images/user-1.png" />
+                <text class="user-name">你个废物</text>
+            </view>
+            <view class="comment-content">
+                <text>大刘塑造的女性都具有明显的圣母特质，但是本质上</text>
+                <text>弱爆了。叶是文革的毒瘤，庄是定制禁脔，程最经典</text>
+                <text>——站在圣母和傻逼的微笑曲线上。大刘塑造的男性</text>
+                <text>都带有明显的缺陷但本质上极端人性化。一身痞气的</text>
+                <text>小人物大史，最高情商让他活得最明白；罗辑的荒唐</text>
+                <text>和不羁让他成了救世主，但也决定了他必不能善终；</text>
+                <text>软弱怯懦固执的云天明，也并无理由因为慷慨和运气</text>
+                <text>就得到爱啊。但我真心理解这样的人，这样的性格，</text>
+                <text>这样的命运。</text>
+            </view>
+            <view class="comment-info">
+                <text class="time" decode="{{true}}">12-04&ensp;21:20</text>
+                <view class="comment-data">
+                    <view class="like">
+                        <text class="iconfont icon-xin"></text>
+                        <text>134</text>
+                    </view>
+                    <view class="comment">
+                        <text class="iconfont icon-huifu"></text>
+                        <text>89</text>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>
+<view class="btn-bottom">
+    <view class="try">试看</view>
+    <view class="buy">购买</view>
 </view>

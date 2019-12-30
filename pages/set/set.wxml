@@ -1,0 +1,39 @@
+<!-- pages/set/set.wxml -->
+<view class="container">
+    <view class="set-wrap">
+        <view class="operation-list">
+            <navigator>
+                <view class="operation-item">
+                    <text class="option">查看账户</text>
+                    <text class="iconfont icon-zuo"></text>
+                </view>
+            </navigator>
+            <view class="operation-item">
+                <text class="option">个人资料</text>
+                <text class="iconfont icon-zuo"></text>
+            </view>
+            <view class="operation-item">
+                <text class="option">消息提醒</text>
+                <view class="btn">
+                    <switch color="#fb6894"/>
+                </view>
+            </view>
+            <view class="operation-item">
+                <text class="option">清理缓存</text>
+                <text class="balance">128MB</text>
+                <text class="iconfont icon-zuo"></text>
+            </view>
+            <view class="operation-item">
+                <text class="option">帮助中心</text>
+                <text class="iconfont icon-zuo"></text>
+            </view>
+            <view class="operation-item">
+                <text class="option">关于我们</text>
+                <text class="iconfont icon-zuo"></text>
+            </view>
+        </view>
+    </view>
+</view>
+<view class="log-out">
+    退出登录
+</view>
