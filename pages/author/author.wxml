@@ -1,0 +1,184 @@
+<!-- pages/author/author.wxml -->
+<view class="container">
+    <view class="header">
+        <text class="iconfont icon-list"></text>
+    </view>
+    <view class="top-author">
+        <view class="top top2">
+            <view class="author-img">
+                <text class="iconfont icon-huangguan cur"></text>
+                <image src="../images/yuqiuyu.png" />
+                <text class="ranking">2</text>
+            </view>
+            <view class="author-item">
+                <view class="author-name cur">余秋雨</view>
+                <text class="author-fans" decode="{{true}}">5869&ensp;粉丝</text>
+            </view>
+        </view>
+        <view class="top top1">
+            <view class="author-img">
+                <text class="iconfont icon-huangguan cur"></text>
+                <image src="../images/liucixin.png" />
+                <text class="ranking">1</text>
+            </view>
+            <view class="author-item">
+                <view class="author-name cur">刘慈欣</view>
+                <text class="author-fans" decode="{{true}}">6598&ensp;粉丝</text>
+            </view>
+        </view>
+        <view class="top top3">
+            <navigator url="../authordetail/authordetail">
+                <view class="author-img">
+                    <text class="iconfont icon-huangguan cur"></text>
+                    <image src="../images/author-9.png" />
+                    <text class="ranking">3</text>
+                </view>
+                <view class="author-item">
+                    <view class="author-name cur">田小花</view>
+                    <text class="author-fans" decode="{{true}}">4526&ensp;粉丝</text>
+                </view>
+            </navigator>
+        </view>
+    </view>
+</view>
+<view class="class-ranking-wrap">
+    <view class="title-wrap">
+        <text class="title">热门作者</text>
+        <navigator class="more-rank" url="../author/author">
+            <text class="" decode="true">查看全部&ensp;></text>
+        </navigator>
+    </view>
+    <view class="ranking-wrap">
+        <view class="ranking-list">
+            <view class="ranking-item">
+                <navigator url="">
+                    <image src="../images/author-1.png" alt="" />
+                    <text class="detail">王源源</text>
+                </navigator>
+                <view class="focus">+关注</view>
+            </view>
+            <view class="ranking-item">
+                <navigator url="">
+                    <image src="../images/author-2.png" alt="" />
+                    <text class="detail">张小佳</text>
+                </navigator>
+                <view class="focus">+关注</view>
+            </view>
+            <view class="ranking-item">
+                <navigator url="">
+                    <image src="../images/author-3.png" alt="" />
+                    <text class="detail">谢英华</text>
+                </navigator>
+                <view class="focus">+关注</view>
+            </view>
+            <view class="ranking-item">
+                <navigator url="">
+                    <image src="../images/author-4.png" alt="" />
+                    <text class="detail">李小军</text>
+                </navigator>
+                <view class="focus">+关注</view>
+            </view>
+            <view class="ranking-item">
+                <navigator url="">
+                    <image src="../images/author-5.png" alt="" />
+                    <text class="detail">王源源</text>
+                </navigator>
+                <view class="focus">+关注</view>
+            </view>
+        </view>
+    </view>
+</view>
+<view class="class-ranking-wrap">
+    <view class="title-wrap">
+        <text class="title">新晋作者</text>
+        <navigator class="more-rank" url="../author/author">
+            <text class="" decode="true">查看全部&ensp;></text>
+        </navigator>
+    </view>
+    <view class="ranking-wrap">
+        <view class="ranking-list">
+            <view class="ranking-item">
+                <navigator url="">
+                    <image src="../images/author-5.png" alt="" />
+                    <text class="detail">赵小磊</text>
+                </navigator>
+                <view class="focus">+关注</view>
+            </view>
+            <view class="ranking-item">
+                <navigator url="">
+                    <image src="../images/author-6.png" alt="" />
+                    <text class="detail">钟大华</text>
+                </navigator>
+                <view class="focus">+关注</view>
+            </view>
+            <view class="ranking-item">
+                <navigator url="">
+                    <image src="../images/author-7.png" alt="" />
+                    <text class="detail">王中金</text>
+                </navigator>
+                <view class="focus">+关注</view>
+            </view>
+            <view class="ranking-item">
+                <navigator url="">
+                    <image src="../images/author-8.png" alt="" />
+                    <text class="detail">李全柱</text>
+                </navigator>
+                <view class="focus">+关注</view>
+            </view>
+            <view class="ranking-item">
+                <navigator url="">
+                    <image src="../images/author-1.png" alt="" />
+                    <text class="detail">王源源</text>
+                </navigator>
+                <view class="focus">+关注</view>
+            </view>
+        </view>
+    </view>
+</view>
+<view class="class-ranking-wrap">
+    <view class="title-wrap">
+        <text class="title">其他作者</text>
+        <navigator class="more-rank" url="../author/author">
+            <text class="" decode="true">查看全部&ensp;></text>
+        </navigator>
+    </view>
+    <view class="ranking-wrap">
+        <view class="ranking-list">
+            <view class="ranking-item">
+                <navigator url="">
+                    <image src="../images/author-5.png" alt="" />
+                    <text class="detail">赵小磊</text>
+                </navigator>
+                <view class="focus">+关注</view>
+            </view>
+            <view class="ranking-item">
+                <navigator url="">
+                    <image src="../images/author-6.png" alt="" />
+                    <text class="detail">钟大华</text>
+                </navigator>
+                <view class="focus">+关注</view>
+            </view>
+            <view class="ranking-item">
+                <navigator url="">
+                    <image src="../images/author-7.png" alt="" />
+                    <text class="detail">王中金</text>
+                </navigator>
+                <view class="focus">+关注</view>
+            </view>
+            <view class="ranking-item">
+                <navigator url="">
+                    <image src="../images/author-8.png" alt="" />
+                    <text class="detail">李全柱</text>
+                </navigator>
+                <view class="focus">+关注</view>
+            </view>
+            <view class="ranking-item">
+                <navigator url="">
+                    <image src="../images/author-1.png" alt="" />
+                    <text class="detail">王源源</text>
+                </navigator>
+                <view class="focus">+关注</view>
+            </view>
+        </view>
+    </view>
+</view>

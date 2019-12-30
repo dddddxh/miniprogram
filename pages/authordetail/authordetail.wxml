@@ -1,0 +1,116 @@
+<!-- pages/authordetail/authordetail.wxml -->
+<view class="author-wrap">
+    <view class="author-info">
+        <view class="author-img">
+            <image src="../images/author-9.png" />
+        </view>
+        <view class="wrapper">
+            <view class="author-msg">
+                <view class="author-name">田小花</view>
+                <view class="author-site">中国·保康</view>
+            </view>
+            <view class="btn-wrap">
+                <view class="share-wrap">
+                    <text class="iconfont icon-fenxiang"></text>
+                    <text class="share">分享</text>
+                </view>
+                <view class="focus-wrap">
+                    <text class="focus">+关注</text>
+                </view>
+            </view>
+        </view>
+    </view>
+    <view class="content-wrap">
+        <view class="item">
+            <view class="number">1286</view>
+            <view class="detail">关注</view>
+        </view>
+        <view class="line"></view>
+        <view class="item">
+            <view class="number">3368</view>
+            <view class="detail">粉丝</view>
+        </view>
+        <view class="line"></view>
+        <view class="item">
+            <view class="number">6673</view>
+            <view class="detail">喜欢</view>
+        </view>
+    </view>
+    <view class="production-wrap">
+        <view class="title-wrap">
+            <text class="title">代表作</text>
+            <text class="count" decode="{{true}}">总共&ensp;3&ensp;本书</text>
+        </view>
+        <view class="production-list">
+            <view class="production-item">
+                <view class="cover">
+                    <image src="../images/yuwang.png" />
+                </view>
+                <view class="book-detail">
+                    <view class="book-name">鱼王</view>
+                    <view class="score-wrap">
+                        <text class="iconfont icon-xing"></text>
+                        <text class="iconfont icon-xing"></text>
+                        <text class="iconfont icon-xing"></text>
+                        <text class="iconfont icon-xing"></text>
+                        <text class="iconfont icon-xing"></text>
+                        <text class="score">5.0</text>
+                    </view>
+                    <view class="detail">
+                        <text>全书由十三个内容相对独立的“叙事短篇小</text>
+                        <text>说”组成，全部围绕着人与自然的关...</text>
+                    </view>
+                    <view class="count">
+                        <text decode="{{true}}">366&ensp;人阅读</text>
+                    </view>
+                </view>
+            </view>
+            <view class="production-item">
+                <view class="cover">
+                    <image src="../images/bukesiyidepengyou.png" />
+                </view>
+                <view class="book-detail">
+                    <view class="book-name">不可思议的朋友</view>
+                    <view class="score-wrap">
+                        <text class="iconfont icon-xing"></text>
+                        <text class="iconfont icon-xing"></text>
+                        <text class="iconfont icon-xing"></text>
+                        <text class="iconfont icon-xing"></text>
+                        <text class="iconfont icon-xing"></text>
+                        <text class="score">5.0</text>
+                    </view>
+                    <view class="detail">
+                        <text>讲述的是一段历经20年的非同寻常的友情</text>
+                        <text>我和自闭症少年“小安”相识在小...</text>
+                    </view>
+                    <view class="count">
+                        <text decode="{{true}}">256&ensp;人阅读</text>
+                    </view>
+                </view>
+            </view>
+            <view class="production-item">
+                <view class="cover">
+                    <image src="../images/bukesiyidepengyou.png" />
+                </view>
+                <view class="book-detail">
+                    <view class="book-name">不可思议的朋友</view>
+                    <view class="score-wrap">
+                        <text class="iconfont icon-xing"></text>
+                        <text class="iconfont icon-xing"></text>
+                        <text class="iconfont icon-xing"></text>
+                        <text class="iconfont icon-xing"></text>
+                        <text class="iconfont icon-xing"></text>
+                        <text class="score">5.0</text>
+                    </view>
+                    <view class="detail">
+                        <text>讲述的是一段历经20年的非同寻常的友情</text>
+                        <text>我和自闭症少年“小安”相识在小...</text>
+                    </view>
+                    <view class="count">
+                        <text decode="{{true}}">256&ensp;人阅读</text>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

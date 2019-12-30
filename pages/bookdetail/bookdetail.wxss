@@ -1,50 +1,62 @@
 /* pages/bookdetail/bookdetail.wxss */
-.container{
+
+.container {
     box-sizing: border-box;
     padding: 0rpx 48rpx;
-
+    margin-bottom: 180rpx;
 }
-.book-wrap{
+
+.book-wrap {
     display: flow-root;
 }
-.book-wrap .book-cover{
+
+.book-wrap .book-cover {
     float: left;
     margin-right: 32rpx;
 }
-.book-wrap .book-cover image{
+
+.book-wrap .book-cover image {
     width: 216rpx;
     height: 320rpx;
 }
-.book-wrap .book-set{
+
+.book-wrap .book-set {
     display: flow-root;
 }
-.book-wrap .book-set .book-name{
+
+.book-wrap .book-set .book-name {
     margin-top: 45rpx;
 }
-.book-wrap .book-set .book-author{
+
+.book-wrap .book-set .book-author {
     font-size: 28rpx;
     color: #828d9a;
     margin-top: 26rpx;
 }
-.book-wrap .book-set .book-detail{
+
+.book-wrap .book-set .book-detail {
     color: #868dab;
     font-size: 24rpx;
     margin-top: 26rpx;
 }
-.book-wrap .book-set .score-wrap{
+
+.book-wrap .book-set .score-wrap {
     margin-top: 36rpx;
 }
-.book-wrap .book-set .score-wrap .iconfont{
+
+.book-wrap .book-set .score-wrap .iconfont {
     margin: 0rpx 4rpx;
     color: #fb6894;
     font-size: 28rpx;
 }
-.book-wrap .book-set .score-wrap .score{
+
+.book-wrap .book-set .score-wrap .score {
     font-size: 36rpx;
     color: #ffce44;
     margin-left: 32rpx;
 }
-.option-wrap{
+
+.option-wrap {
     height: 120rpx;
     display: flex;
     align-items: center;
@@ -53,10 +65,148 @@
     border-top: 2rpx solid #323643;
     margin-top: 64rpx;
 }
-.option-wrap .item .iconfont{
+
+.option-wrap .item {
+    display: flex;
+}
+
+.option-wrap .item .iconfont {
     color: #70758b;
-    margin-right: 30rpx;
+    margin-right: 20rpx;
     font-size: 40rpx;
 }
 
+.detail-wrap {
+    border-bottom: 2rpx solid #323643;
+}
 
+.detail-wrap .title {
+    font-size: 32rpx;
+    margin-top: 55rpx;
+    margin-bottom: 40rpx;
+}
+
+.detail-wrap .detail {
+    color: #868dab;
+    font-size: 28rpx;
+    margin-bottom: 90rpx;
+}
+
+.check-directory {
+    height: 140rpx;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 36rpx;
+    border-bottom: 2rpx solid #323643;
+}
+
+.check-directory .icon-zuo {
+    color: #868dab;
+}
+
+.comment-wrap .wrapper {
+    margin-top: 55rpx;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.comment-wrap .wrapper .title {
+    margin-right: 30rpx;
+    font-size: 32rpx;
+}
+
+.comment-wrap .wrapper .option {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.comment-wrap .wrapper .option .count {
+    font-size: 24rpx;
+    color: #0371eb;
+}
+
+.comment-wrap .wrapper .option .icon-xiepinglun {
+    font-size: 32rpx;
+}
+
+.comment-wrap .comment-item {
+    margin-top: 46rpx;
+}
+
+.comment-wrap .comment-item .user-info {
+    display: flex;
+    align-items: center;
+}
+
+.comment-wrap .comment-item .user-info image {
+    width: 60rpx;
+    height: 60rpx;
+    border-radius: 50rpx;
+    margin-right: 26rpx;
+}
+
+.comment-wrap .comment-content {
+    margin-top: 10rpx;
+    margin-left: 86rpx;
+    margin-right: 10rpx;
+    color: #868dab;
+    font-size: 24rpx;
+}
+
+.comment-wrap .comment-info {
+    margin-top: 40rpx;
+    margin-left: 86rpx;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 24rpx;
+    color: #5a5f6e;
+    padding-bottom: 40rpx;
+    border-bottom: 2rpx solid #323643;
+}
+
+.comment-wrap .comment-info .comment-data {
+    display: flex;
+}
+
+.comment-wrap .comment-info .comment-data .like {
+    margin-right: 32rpx;
+    display: flex;
+}
+
+.comment-wrap .comment-info .comment-data .iconfont {
+    margin-right: 16rpx;
+}
+.btn-bottom{
+    width: 100%;
+    height: 158rpx;
+    position: fixed;
+    bottom: 0rpx;
+    z-index: 999;
+    background-color: #373a49;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.try{
+    width: 210rpx;
+    height: 94rpx;
+    background: #9295a9;
+    text-align: center;
+    line-height: 94rpx;
+    margin-left: 48rpx;
+    border-radius: 50rpx;
+}
+.buy{
+    width: 406rpx;
+    height: 94rpx;
+    background: #fb6894;
+    text-align: center;
+    line-height: 94rpx;
+    margin-right: 48rpx;
+    border-radius: 50rpx;
+}

@@ -1,6 +1,10 @@
 {
   "pages": [
     "pages/index/index",
+    "pages/authordetail/authordetail",
+    "pages/author/author",
+    "pages/set/set",
+    "pages/comment/comment",
     "pages/bookdetail/bookdetail",
     "pages/explore/explore",
     "pages/classify/classify",

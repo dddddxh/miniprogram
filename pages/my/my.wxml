@@ -1,6 +1,8 @@
 <!-- pages/my/my.wxml -->
 <view class="header">
-    <text class="iconfont icon-shezhi"></text>
+    <navigator url="../set/set">
+        <text class="iconfont icon-shezhi"></text>
+    </navigator>
 </view>
 <view class="user-wrap">
     <view class="user-info">

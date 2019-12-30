@@ -1,0 +1,154 @@
+.author-wrap {
+    box-sizing: border-box;
+    padding: 0px 48rpx;
+    margin-top: 42rpx;
+    display: flow-root;
+}
+
+.author-info {
+    margin-bottom: 52rpx;
+    display: flow-root;
+}
+
+.author-info .wrapper {
+    float: left;
+}
+
+.author-info .author-img {
+    margin-right: 30rpx;
+    float: left;
+}
+
+.author-info .author-img image {
+    width: 240rpx;
+    height: 240rpx;
+}
+
+.author-info .author-msg {
+    margin-top: 35rpx;
+}
+
+.author-info .author-msg .author-name {
+    font-size: 36rpx;
+    font-weight: bold;
+}
+
+.author-info .author-msg .author-site {
+    font-size: 28rpx;
+    color: #b5b7c5;
+    margin-top: 12rpx;
+}
+
+.author-info .btn-wrap {
+    margin-top: 55rpx;
+}
+
+.author-info .share-wrap {
+    width: 176rpx;
+    height: 60rpx;
+    border: 2rpx solid #71768c;
+    text-align: center;
+    color: #71768c;
+    border-radius: 12rpx;
+    display: inline-block;
+    margin-right: 25rpx;
+}
+
+.author-info .focus-wrap {
+    width: 176rpx;
+    line-height: 60rpx;
+    text-align: center;
+    border-radius: 12rpx;
+    display: inline-block;
+    background-color: #478ce0;
+}
+
+.author-info .share-wrap .icon-fenxiang {
+    line-height: 60rpx;
+    margin-right: 10rpx;
+}
+
+.author-info .share-wrap .share {
+    line-height: 60rpx;
+}
+
+.content-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    height: 126rpx;
+    background-color: #2b323b;
+    border-radius: 24rpx;
+    margin-bottom: 70rpx;
+}
+
+.content-wrap .line {
+    height: 80rpx;
+    border: 1rpx solid #363c45;
+}
+
+.content-wrap .item {
+    width: 30%;
+}
+
+.content-wrap .item .detail {
+    color: #75808d;
+    font-size: 28rpx;
+}
+
+.production-wrap .title-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 66rpx;
+}
+
+.count {
+    font-size: 24rpx;
+    color: #478ce0;
+}
+
+.production-wrap .production-list .production-item .cover {
+    float: left;
+    margin-right: 32rpx;
+}
+
+.production-wrap .production-list .production-item .cover image {
+    width: 168rpx;
+    height: 250rpx;
+}
+
+.production-wrap .production-item {
+    display: flow-root;
+    padding-bottom: 48rpx;
+    border-bottom: 2rpx solid #2b323b;
+    margin-bottom: 50rpx;
+}
+
+.production-item .book-detail {
+    display: flow-root;
+}
+
+.production-item .book-detail .book-name {
+    margin-top: 30rpx;
+}
+
+.production-item .book-detail .score-wrap .iconfont {
+    margin: 0rpx 4rpx;
+    color: #fb6894;
+    font-size: 28rpx;
+}
+
+.production-item .book-detail .score-wrap .score {
+    font-size: 36rpx;
+    color: #ffce44;
+    margin-left: 32rpx;
+}
+
+.production-item .book-detail .detail {
+    color: #868dab;
+    font-size: 24rpx;
+    margin-top: 10rpx;
+    margin-bottom: 20rpx;
+}

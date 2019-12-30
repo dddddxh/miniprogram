@@ -57,7 +57,7 @@
     <view class="class-ranking-wrap">
         <view class="title-wrap">
             <text class="title">作者排行</text>
-            <navigator class="more-rank" url="">
+            <navigator class="more-rank" url="../author/author">
                 <text class="" decode="true">查看全部&emsp;></text>
             </navigator>
         </view>
@@ -70,7 +70,7 @@
                     </navigator>
                 </view>
                 <view class="ranking-item">
-                    <navigator url="">
+                    <navigator url="../authordetail/authordetail">
                         <image src="../images/tianxiaohua.png" alt="" />
                         <text class="detail">田小花</text>
                     </navigator>
@@ -167,7 +167,7 @@
         <view class="ranking-wrap">
             <view class="hot-ranking-list">
                 <view class="hot-ranking-item">
-                    <navigator>
+                    <navigator url="../bookdetail/bookdetail">
                         <image src="../images/santi.png" />
                         <view class="detail-wrap">
                             <view class="book-name">

@@ -5,7 +5,7 @@
 <view class="ranking-wrap">
     <view class="hot-ranking-list">
         <view class="hot-ranking-item">
-            <navigator>
+            <navigator url="../bookdetail/bookdetail">
                 <image src="../images/santi.png" />
                 <view class="detail-wrap">
                     <view class="book-name">

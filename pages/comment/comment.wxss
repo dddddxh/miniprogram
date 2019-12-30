@@ -1,0 +1,65 @@
+/* pages/comment/comment.wxss */
+.header {
+    text-align: right;
+    padding-right: 48rpx;
+    box-sizing: border-box;
+    background: #21272e;
+    width: 100%;
+    position: fixed;
+    top: 0rpx;
+    right: 0rpx;
+    z-index: 1;
+}
+.container {
+    box-sizing: border-box;
+    padding: 0rpx 48rpx;
+}
+
+.comment-wrap .comment-item {
+    margin-top: 46rpx;
+}
+
+.comment-wrap .comment-item .user-info {
+    display: flex;
+    align-items: center;
+}
+
+.comment-wrap .comment-item .user-info image {
+    width: 60rpx;
+    height: 60rpx;
+    border-radius: 50rpx;
+    margin-right: 26rpx;
+}
+
+.comment-wrap .comment-content {
+    margin-top: 10rpx;
+    margin-left: 86rpx;
+    margin-right: 10rpx;
+    color: #868dab;
+    font-size: 24rpx;
+}
+
+.comment-wrap .comment-info {
+    margin-top: 40rpx;
+    margin-left: 86rpx;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 24rpx;
+    color: #5a5f6e;
+    padding-bottom: 40rpx;
+    border-bottom: 2rpx solid #323643;
+}
+
+.comment-wrap .comment-info .comment-data {
+    display: flex;
+}
+
+.comment-wrap .comment-info .comment-data .like {
+    margin-right: 32rpx;
+    display: flex;
+}
+
+.comment-wrap .comment-info .comment-data .iconfont {
+    margin-right: 16rpx;
+}

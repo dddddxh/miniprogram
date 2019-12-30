@@ -1,0 +1,93 @@
+<!-- pages/comment/comment.wxml -->
+<view class="container">
+    <view class="header">
+        <text class="iconfont icon-xiepinglun"></text>
+    </view>
+    <view class="comment-wrap">
+        <view class="comment-item">
+            <view class="user-info">
+                <image src="../images/user-1.png" />
+                <text class="user-name">你个废物</text>
+            </view>
+            <view class="comment-content">
+                <text>大刘塑造的女性都具有明显的圣母特质，但是本质上</text>
+                <text>弱爆了。叶是文革的毒瘤，庄是定制禁脔，程最经典</text>
+                <text>——站在圣母和傻逼的微笑曲线上。大刘塑造的男性</text>
+                <text>都带有明显的缺陷但本质上极端人性化。一身痞气的</text>
+                <text>小人物大史，最高情商让他活得最明白；罗辑的荒唐</text>
+                <text>和不羁让他成了救世主，但也决定了他必不能善终；</text>
+                <text>软弱怯懦固执的云天明，也并无理由因为慷慨和运气</text>
+                <text>就得到爱啊。但我真心理解这样的人，这样的性格，</text>
+                <text>这样的命运。</text>
+            </view>
+            <view class="comment-info">
+                <text class="time" decode="{{true}}">12-04&ensp;21:20</text>
+                <view class="comment-data">
+                    <view class="like">
+                        <text class="iconfont icon-xin"></text>
+                        <text>134</text>
+                    </view>
+                    <view class="comment">
+                        <text class="iconfont icon-huifu"></text>
+                        <text>89</text>
+                    </view>
+                </view>
+            </view>
+        </view>
+        <view class="comment-item">
+            <view class="user-info">
+                <image src="../images/user-2.png" />
+                <text class="user-name">猪是糖缺死的</text>
+            </view>
+            <view class="comment-content">
+                <text>鉴于这年头写书评是一种费力不讨好一不小心就被客</text>
+                <text>观被装逼被代表全亚洲的行为艺术，楼主在读完《三</text>
+                <text>体3》（以下省略书名号，以下所有提及的书刊杂志一</text>
+                <text>律省略书名号，因为太麻烦）后，用了五秒钟做出重</text>
+                <text>要决定：老子只写读后感。所谓读后感的意思就是，</text>
+                <text>这是一个完全个人完全主观。</text>
+            </view>
+            <view class="comment-info">
+                <text class="time" decode="{{true}}">12-04&ensp;21:20</text>
+                <view class="comment-data">
+                    <view class="like">
+                        <text class="iconfont icon-xin"></text>
+                        <text>134</text>
+                    </view>
+                    <view class="comment">
+                        <text class="iconfont icon-huifu"></text>
+                        <text>89</text>
+                    </view>
+                </view>
+            </view>
+        </view>
+        <view class="comment-item">
+            <view class="user-info">
+                <image src="../images/user-3.png" />
+                <text class="user-name">四肢发达头脑复杂</text>
+            </view>
+            <view class="comment-content">
+                <text>刘慈欣：写这个人就没想过让读者喜欢，这不是读者</text>
+                <text>会喜欢的人。她其实很自私，但这种自私和普通的自</text>
+                <text>私不一样，因为她自己觉察不到。遵循道德的人其实</text>
+                <text>很自私，因为他们除了道德和良心什么都不管，程心</text>
+                <text>恰恰就是一个这样的人。 她会认为自己很崇高，认为</text>
+                <text>自己不自私，认为自己的价值观和道德准则是普世的</text>
+                <text>、正确的。</text>
+            </view>
+            <view class="comment-info">
+                <text class="time" decode="{{true}}">12-04&ensp;21:20</text>
+                <view class="comment-data">
+                    <view class="like">
+                        <text class="iconfont icon-xin"></text>
+                        <text>134</text>
+                    </view>
+                    <view class="comment">
+                        <text class="iconfont icon-huifu"></text>
+                        <text>89</text>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

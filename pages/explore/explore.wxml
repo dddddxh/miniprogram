@@ -6,13 +6,15 @@
     </view>
     <view wx:if="{{cur == 2}}">
         <view class="content">
-            <view class="book-cover">
-                <image src="../images/santi.png" />
-            </view>
-            <view class="book-detail">
-                <view class="book-name">三体：死神永生</view>
-                <view class="author">刘慈欣</view>
-            </view>
+            <navigator url="../bookdetail/bookdetail">
+                <view class="book-cover">
+                    <image src="../images/santi.png" />
+                </view>
+                <view class="book-detail">
+                    <view class="book-name">三体：死神永生</view>
+                    <view class="author">刘慈欣</view>
+                </view>
+            </navigator>
         </view>
         <view class="reader-wrap">
             <view class="reader-list">
@@ -56,7 +58,7 @@
         <view class="book-wrap">
             <view class="book-list">
                 <view class="book-item">
-                    <navigator>
+                    <navigator url="../bookdetail/bookdetail">
                         <image src="../images/santi.png" />
                         <view class="book-name">三体：死神永生</view>
                     </navigator>
