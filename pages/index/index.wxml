@@ -70,7 +70,7 @@
                     </navigator>
                 </view>
                 <view class="ranking-item">
-                    <navigator url="">
+                    <navigator url="../authordetail/authordetail">
                         <image src="../images/tianxiaohua.png" alt="" />
                         <text class="detail">田小花</text>
                     </navigator>

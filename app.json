@@ -1,8 +1,8 @@
 {
   "pages": [
+    "pages/index/index",
     "pages/authordetail/authordetail",
     "pages/author/author",
-    "pages/index/index",
     "pages/set/set",
     "pages/comment/comment",
     "pages/bookdetail/bookdetail",

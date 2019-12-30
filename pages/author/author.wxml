@@ -27,15 +27,17 @@
             </view>
         </view>
         <view class="top top3">
-            <view class="author-img">
-                <text class="iconfont icon-huangguan cur"></text>
-                <image src="../images/tianxiaohua.png" />
-                <text class="ranking">3</text>
-            </view>
-            <view class="author-item">
-                <view class="author-name cur">田小花</view>
-                <text class="author-fans" decode="{{true}}">4526&ensp;粉丝</text>
-            </view>
+            <navigator url="../authordetail/authordetail">
+                <view class="author-img">
+                    <text class="iconfont icon-huangguan cur"></text>
+                    <image src="../images/author-9.png" />
+                    <text class="ranking">3</text>
+                </view>
+                <view class="author-item">
+                    <view class="author-name cur">田小花</view>
+                    <text class="author-fans" decode="{{true}}">4526&ensp;粉丝</text>
+                </view>
+            </navigator>
         </view>
     </view>
 </view>
