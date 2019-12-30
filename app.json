@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/authordetail/authordetail",
     "pages/author/author",
     "pages/index/index",
     "pages/set/set",

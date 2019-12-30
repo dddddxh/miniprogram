@@ -1,0 +1,99 @@
+
+.author-wrap {
+    box-sizing: border-box;
+    padding: 0px 48rpx;
+    margin-top: 42rpx;
+    display: flow-root;
+}
+
+.author-info {
+    margin-bottom: 52rpx;
+    display: flow-root;
+}
+.author-info .wrapper{
+    float: left;
+}
+
+.author-info .author-img {
+    margin-right: 30rpx;
+    float: left;
+}
+
+.author-info .author-img image {
+    width: 240rpx;
+    height: 240rpx;
+}
+
+.author-info .author-msg {
+    margin-top: 35rpx;
+}
+
+.author-info .author-msg .author-name {
+    font-size: 36rpx;
+    font-weight: bold;
+}
+
+.author-info .author-msg .author-site {
+    font-size: 28rpx;
+    color: #b5b7c5;
+    margin-top: 12rpx;
+}
+.author-info .btn-wrap{
+    margin-top: 55rpx;
+}
+.author-info .share-wrap {
+    width: 176rpx;
+    height: 60rpx;
+    border: 2rpx solid #71768c;
+    text-align: center;
+    color: #71768c;
+    border-radius: 12rpx;
+    display: inline-block;
+    margin-right: 25rpx;
+}
+.author-info .focus-wrap {
+    width: 176rpx;
+    line-height: 60rpx;
+    text-align: center;
+    border-radius: 12rpx;
+    display: inline-block;
+    background-color: #478ce0;
+}
+
+.author-info .share-wrap .icon-fenxiang {
+    line-height: 60rpx;
+    margin-right: 10rpx;
+}
+
+.author-info .share-wrap .share {
+    line-height: 60rpx;
+}
+
+.content-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    height: 126rpx;
+    background-color: #2b323b;
+    border-radius: 24rpx;
+    margin-bottom: 38rpx;
+}
+
+.content-wrap .line {
+    height: 80rpx;
+    border: 1rpx solid #363c45;
+}
+
+.content-wrap .item {
+    width: 30%;
+}
+
+.content-wrap .item .detail {
+    color: #75808d;
+    font-size: 28rpx;
+}
+
+
+
+

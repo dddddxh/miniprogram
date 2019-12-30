@@ -57,7 +57,7 @@
     <view class="class-ranking-wrap">
         <view class="title-wrap">
             <text class="title">作者排行</text>
-            <navigator class="more-rank" url="">
+            <navigator class="more-rank" url="../author/author">
                 <text class="" decode="true">查看全部&emsp;></text>
             </navigator>
         </view>

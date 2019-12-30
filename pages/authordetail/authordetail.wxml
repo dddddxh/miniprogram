@@ -1,0 +1,39 @@
+<!-- pages/authordetail/authordetail.wxml -->
+<view class="author-wrap">
+    <view class="author-info">
+        <view class="author-img">
+            <image src="../images/author-9.png" />
+        </view>
+        <view class="wrapper">
+            <view class="author-msg">
+                <view class="author-name">田小花</view>
+                <view class="author-site">中国·保康</view>
+            </view>
+            <view class="btn-wrap">
+                <view class="share-wrap">
+                    <text class="iconfont icon-fenxiang"></text>
+                    <text class="share">分享</text>
+                </view>
+                <view class="focus-wrap">
+                    <text class="focus">+关注</text>
+                </view>
+            </view>
+        </view>
+    </view>
+    <view class="content-wrap">
+        <view class="item">
+            <view class="number">1286</view>
+            <view class="detail">关注</view>
+        </view>
+        <view class="line"></view>
+        <view class="item">
+            <view class="number">3368</view>
+            <view class="detail">粉丝</view>
+        </view>
+        <view class="line"></view>
+        <view class="item">
+            <view class="number">6673</view>
+            <view class="detail">喜欢</view>
+        </view>
+    </view>
+</view>
