@@ -1,0 +1,58 @@
+<!-- pages/search/search.wxml -->
+<template name="search">
+<view class="main">
+    <!-- <view class="scarch-wrapper">
+        <view class="scarch-input">
+            <view class="iconfont icon-sousuo"></view>
+            <input type="text" placeholder-class="place" placeholder="搜索..." />
+        </view>
+        <view class="cancel">取消</view>
+    </view> -->
+    <view class="class-ranking-wrap">
+        <view class="title-wrap">
+            <text class="title">热门搜索</text>
+            <navigator url="">
+                <text class="more-rank" decode="true">查看全部&emsp;></text>
+            </navigator>
+        </view>
+        <view class="hot-search-wrap">
+            <view class="hot-list">
+                <view class="hot-list-item">
+                    <navigator url="">
+                        <image src="../images/santi.png" />
+                        <view class="book">三体：死神永生</view>
+                        <text class="author-name">刘慈欣</text>
+                    </navigator>
+                </view>
+                <view class="hot-list-item">
+                    <navigator url="">
+                        <image src="../images/renleijianshi.png" />
+                        <view class="book">人类简史</view>
+                        <text class="author-name">尤瓦尔·郝拉利</text>
+                    </navigator>
+                </view>
+                <view class="hot-list-item">
+                    <navigator url="">
+                        <image src="../images/xusanguan.png" />
+                        <view class="book">许三观卖血记</view>
+                        <text class="author-name">余华</text>
+                    </navigator>
+                </view>
+            </view>
+        </view>
+    </view>
+    <view class="history-wrap">
+        <view class="title-wrap">
+            <text class="title">搜索历史</text>
+            <text class="iconfont icon-remove"></text>
+        </view>
+        <view class="option-list">
+            <view class="option-item">2018排行榜</view>
+            <view class="option-item">职场热门</view>
+            <view class="option-item">都市言情</view>
+            <view class="option-item">哈佛大学经济管理类</view>
+            <view class="option-item">领导才能</view>
+        </view>
+    </view>
+</view>
+</template>

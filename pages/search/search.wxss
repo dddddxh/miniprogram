@@ -1,0 +1,108 @@
+
+
+.main {
+    box-sizing: border-box;
+    padding: 0rpx 48rpx;
+}
+/* 
+.container .scarch-wrapper {
+    position: relative;
+    display: flow-root;
+}
+
+.container .scarch-wrapper .scarch-input {
+    width: 540rpx;
+    height: 96rpx;
+    float: left;
+    position: relative;
+}
+
+.container .scarch-wrapper .scarch-input input {
+    height: 95rpx;
+    background: #2d353d;
+    border-radius: 50rpx;
+    padding-left: 85rpx;
+}
+
+.container .scarch-wrapper .scarch-input .place {
+    color: #9da3b4;
+    font-size: 32rpx;
+}
+
+.container .scarch-wrapper .scarch-input .icon-sousuo {
+    color: #9da3b4;
+    margin-left: 28rpx;
+    position: absolute;
+    top: 26rpx;
+    font-size: 40rpx;
+}
+
+.container .scarch-wrapper .cancel {
+    float: right;
+    line-height: 90rpx;
+    color: #9da3b4;
+    font-size: 26rpx;
+} */
+
+.history-wrap .title-wrap .more-rank {
+    font-size: 24rpx;
+    color: #9da3b4;
+}
+.hot-search-wrap .hot-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.hot-search-wrap .hot-list .hot-list-item {
+    margin-top: 16rpx;
+}
+
+.hot-search-wrap .hot-list .hot-list-item image {
+    width: 192rpx;
+    height: 296rpx;
+    border-radius: 12rpx;
+}
+
+.hot-search-wrap .hot-list .hot-list-item .book {
+    font-size: 26rpx;
+    margin-top: 30rpx;
+}
+
+.hot-search-wrap .hot-list .hot-list-item .author-name {
+    font-size: 26rpx;
+    color: #5d637c;
+}
+
+.history-wrap {
+    margin-right: -10rpx;
+}
+
+.history-wrap .title-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60rpx;
+    margin-bottom: 40rpx;
+    font-size: 36rpx;
+}
+.history-wrap .title-wrap .icon-remove {
+    color: #71768c;
+    font-size: 36rpx;
+}
+
+.history-wrap .option-list {
+    margin-right: -10rpx;
+}
+
+.history-wrap .option-list .option-item {
+    text-align: center;
+    font-size: 24rpx;
+    line-height: 50rpx;
+    display: inline-block;
+    border-radius: 50rpx;
+    margin-right: 30rpx;
+    margin-bottom: 24rpx;
+    padding: 0px 35rpx;
+    background: #45485b;
+}

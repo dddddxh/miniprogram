@@ -1,0 +1,41 @@
+/* pages/recharge/recharge.wxss */
+.container {
+    box-sizing: border-box;
+    padding: 0rpx 48rpx;
+}
+.head-wrap{
+    height: 320rpx;
+    background-color: #2b323b;
+    box-sizing: border-box;
+    padding-left: 50rpx;
+    padding-right: 50rpx;
+    padding-top: 60rpx;
+}
+.head-wrap .title{
+    color: #75808d;
+    font-size: 40rpx;
+    margin-bottom: 20rpx;
+}
+.head-wrap .money{
+    position: relative;
+}
+.head-wrap .money input{
+    font-size: 100rpx;
+    height: 112rpx;
+    padding-left: 100rpx;
+    border-bottom: 2rpx solid #434e5c;
+}
+.head-wrap .money .icon{
+    position: absolute;
+    bottom: 0rpx;
+    font-size: 100rpx;
+}
+.next{
+    background-color: #2e363f;
+    text-align: center;
+    height: 142rpx;
+    line-height: 142rpx;
+    position: fixed;
+    bottom: 0rpx;
+    width: 100%;
+}

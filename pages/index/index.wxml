@@ -1,8 +1,8 @@
 <!-- index.wxml -->
 <view class="container">
     <!-- 头部 -->
-    <view class="header-wrapper">
-        <navigator>
+    <view class="header-wrapper" wx:if="{{cur==1}}">
+        <navigator url="../author/author">
             <text class="iconfont icon-jiangbei"></text>
         </navigator>
         <navigator>
@@ -11,194 +11,199 @@
     </view>
     <!-- 搜索 -->
     <view class="scarch-wrapper">
-        <view class="scarch-input">
-            <input type="text" placeholder-class="place" placeholder="搜索..." />
+        <view class="{{cur == 1? 'search-input':'search'}}" bindtap="search">
             <view class="iconfont icon-sousuo"></view>
+            <input type="text" placeholder-class="place" placeholder="搜索..." disabled="{{cur == 1}}" />
         </view>
+        <view class="cancel" bindtap="index" wx:if="{{cur==2}}">取消</view>
     </view>
     <!-- 分类排行 -->
-    <view class="class-ranking-wrap">
-        <view class="title-wrap">
-            <text class="title">分类排行</text>
-            <navigator class="more-rank" url="../classify/classify">
-                <text class="" decode="true">查看全部&emsp;></text>
-            </navigator>
-        </view>
-        <view class="ranking-wrap">
-            <view class="ranking-list">
-                <view class="ranking-item">
-                    <navigator url="../fantasy/fantasy">
-                        <image src="../images/kehuan.png" alt="" />
-                        <text class="detail">科幻</text>
-                    </navigator>
-                </view>
-                <view class="ranking-item">
-                    <navigator url="">
-                        <image src="../images/shenghuo.png" alt="" />
-                        <text class="detail">生活</text>
-                    </navigator>
-                </view>
-                <view class="ranking-item">
-                    <navigator url="">
-                        <image src="../images/luying.png" alt="" />
-                        <text class="detail">露营</text>
-                    </navigator>
-                </view>
-                <view class="ranking-item">
-                    <navigator url="">
-                        <image src="../images/zhichang.png" alt="" />
-                        <text class="detail">职场</text>
-                    </navigator>
+    <block wx:if="{{cur==1}}">
+        <view class="class-ranking-wrap">
+            <view class="title-wrap">
+                <text class="title">分类排行</text>
+                <navigator class="more-rank" url="../classify/classify">
+                    <text class="" decode="true">查看全部&emsp;></text>
+                </navigator>
+            </view>
+            <view class="ranking-wrap">
+                <view class="ranking-list">
+                    <view class="ranking-item">
+                        <navigator url="../fantasy/fantasy">
+                            <image src="../images/kehuan.png" alt="" />
+                            <text class="detail">科幻</text>
+                        </navigator>
+                    </view>
+                    <view class="ranking-item">
+                        <navigator url="">
+                            <image src="../images/shenghuo.png" alt="" />
+                            <text class="detail">生活</text>
+                        </navigator>
+                    </view>
+                    <view class="ranking-item">
+                        <navigator url="">
+                            <image src="../images/luying.png" alt="" />
+                            <text class="detail">露营</text>
+                        </navigator>
+                    </view>
+                    <view class="ranking-item">
+                        <navigator url="">
+                            <image src="../images/zhichang.png" alt="" />
+                            <text class="detail">职场</text>
+                        </navigator>
+                    </view>
                 </view>
             </view>
         </view>
-    </view>
-    <!-- 作者排行 -->
-    <view class="class-ranking-wrap">
-        <view class="title-wrap">
-            <text class="title">作者排行</text>
-            <navigator class="more-rank" url="../author/author">
-                <text class="" decode="true">查看全部&emsp;></text>
-            </navigator>
-        </view>
-        <view class="ranking-wrap">
-            <view class="ranking-list">
-                <view class="ranking-item">
-                    <navigator url="">
-                        <image src="../images/liucixin.png" alt="" />
-                        <text class="detail">刘慈欣</text>
-                    </navigator>
-                </view>
-                <view class="ranking-item">
-                    <navigator url="../authordetail/authordetail">
-                        <image src="../images/tianxiaohua.png" alt="" />
-                        <text class="detail">田小花</text>
-                    </navigator>
-                </view>
-                <view class="ranking-item">
-                    <navigator url="">
-                        <image src="../images/maerkesi.png" alt="" />
-                        <text class="detail">马尔克斯</text>
-                    </navigator>
-                </view>
-                <view class="ranking-item">
-                    <navigator url="">
-                        <image src="../images/yuqiuyu.png" alt="" />
-                        <text class="detail">余秋雨</text>
-                    </navigator>
+        <!-- 作者排行 -->
+        <view class="class-ranking-wrap">
+            <view class="title-wrap">
+                <text class="title">作者排行</text>
+                <navigator class="more-rank" url="../author/author">
+                    <text class="" decode="true">查看全部&emsp;></text>
+                </navigator>
+            </view>
+            <view class="ranking-wrap">
+                <view class="ranking-list">
+                    <view class="ranking-item">
+                        <navigator url="">
+                            <image src="../images/liucixin.png" alt="" />
+                            <text class="detail">刘慈欣</text>
+                        </navigator>
+                    </view>
+                    <view class="ranking-item">
+                        <navigator url="../authordetail/authordetail">
+                            <image src="../images/tianxiaohua.png" alt="" />
+                            <text class="detail">田小花</text>
+                        </navigator>
+                    </view>
+                    <view class="ranking-item">
+                        <navigator url="">
+                            <image src="../images/maerkesi.png" alt="" />
+                            <text class="detail">马尔克斯</text>
+                        </navigator>
+                    </view>
+                    <view class="ranking-item">
+                        <navigator url="">
+                            <image src="../images/yuqiuyu.png" alt="" />
+                            <text class="detail">余秋雨</text>
+                        </navigator>
+                    </view>
                 </view>
             </view>
         </view>
-    </view>
-    <!-- 新发布 -->
-    <view class="class-ranking-wrap">
-        <view class="title-wrap">
-            <text class="title">新发布</text>
-            <navigator class="more-rank" url="">
-                <text class="" decode="true">查看全部&emsp;></text>
-            </navigator>
-        </view>
-        <view class="newest-wrap">
-            <view class="new-list">
-                <view class="new-list-item">
-                    <navigator url="">
-                        <image src="../images/santi.png" />
-                        <view class="book">三体：死神永生</view>
-                        <text class="author-name">刘慈欣</text>
-                    </navigator>
-                </view>
-                <view class="new-list-item">
-                    <navigator url="">
-                        <image src="../images/renleijianshi.png" />
-                        <view class="book">人类简史</view>
-                        <text class="author-name">尤瓦尔·郝拉利</text>
-                    </navigator>
-                </view>
-                <view class="new-list-item">
-                    <navigator url="">
-                        <image src="../images/xusanguan.png" />
-                        <view class="book">许三观卖血记</view>
-                        <text class="author-name">余华</text>
-                    </navigator>
-                </view>
-                <view class="new-list-item">
-                    <navigator url="">
-                        <image src="../images/weilaijianshi.png" />
-                        <view class="book">未来简史</view>
-                        <text class="author-name">尤瓦尔·郝拉利</text>
-                    </navigator>
-                </view>
-                <view class="new-list-item">
-                    <navigator url="">
-                        <image src="../images/zisijiyin.png" />
-                        <view class="book">自私的基因</view>
-                        <text class="author-name">理查德·道金斯</text>
-                    </navigator>
-                </view>
-                <view class="new-list-item">
-                    <navigator url="">
-                        <image src="../images/bainiangudu.png" />
-                        <view class="book">百年孤独</view>
-                        <text class="author-name">马尔克斯</text>
-                    </navigator>
+        <!-- 新发布 -->
+        <view class="class-ranking-wrap">
+            <view class="title-wrap">
+                <text class="title">新发布</text>
+                <navigator class="more-rank" url="">
+                    <text class="" decode="true">查看全部&emsp;></text>
+                </navigator>
+            </view>
+            <view class="newest-wrap">
+                <view class="new-list">
+                    <view class="new-list-item">
+                        <navigator url="">
+                            <image src="../images/santi.png" />
+                            <view class="book">三体：死神永生</view>
+                            <text class="author-name">刘慈欣</text>
+                        </navigator>
+                    </view>
+                    <view class="new-list-item">
+                        <navigator url="">
+                            <image src="../images/renleijianshi.png" />
+                            <view class="book">人类简史</view>
+                            <text class="author-name">尤瓦尔·郝拉利</text>
+                        </navigator>
+                    </view>
+                    <view class="new-list-item">
+                        <navigator url="">
+                            <image src="../images/xusanguan.png" />
+                            <view class="book">许三观卖血记</view>
+                            <text class="author-name">余华</text>
+                        </navigator>
+                    </view>
+                    <view class="new-list-item">
+                        <navigator url="">
+                            <image src="../images/weilaijianshi.png" />
+                            <view class="book">未来简史</view>
+                            <text class="author-name">尤瓦尔·郝拉利</text>
+                        </navigator>
+                    </view>
+                    <view class="new-list-item">
+                        <navigator url="">
+                            <image src="../images/zisijiyin.png" />
+                            <view class="book">自私的基因</view>
+                            <text class="author-name">理查德·道金斯</text>
+                        </navigator>
+                    </view>
+                    <view class="new-list-item">
+                        <navigator url="">
+                            <image src="../images/bainiangudu.png" />
+                            <view class="book">百年孤独</view>
+                            <text class="author-name">马尔克斯</text>
+                        </navigator>
+                    </view>
                 </view>
             </view>
         </view>
-    </view>
-    <!-- 热门搜索 -->
-    <view class="hot-wrap">
-        <view class="title">热门搜索</view>
-        <view class="option-list">
-            <view class="option-item pink">2018排行榜</view>
-            <view class="option-item green">职场热门</view>
-            <view class="option-item pink">都市言情</view>
-            <view class="option-item violet">哈佛大学经济管理类</view>
-            <view class="option-item yellow">领导才能</view>
+        <!-- 热门搜索 -->
+        <view class="hot-wrap">
+            <view class="title">热门搜索</view>
+            <view class="option-list">
+                <view class="option-item pink">2018排行榜</view>
+                <view class="option-item green">职场热门</view>
+                <view class="option-item pink">都市言情</view>
+                <view class="option-item violet">哈佛大学经济管理类</view>
+                <view class="option-item yellow">领导才能</view>
+            </view>
         </view>
-    </view>
-    <!-- 热销榜 -->
-    <view class="hot-ranking-wrap">
-        <view class="title-wrap">
-            <text class="title">热销榜</text>
-            <navigator class="more-rank" url="">
-                <text class="" decode="true">查看全部&emsp;></text>
-            </navigator>
-        </view>
-        <view class="ranking-wrap">
-            <view class="hot-ranking-list">
-                <view class="hot-ranking-item">
-                    <navigator url="../bookdetail/bookdetail">
-                        <image src="../images/santi.png" />
-                        <view class="detail-wrap">
-                            <view class="book-name">
-                                三体：死神永生
-                                <text class="menu" decode="true">· · ·</text>
+        <!-- 热销榜 -->
+        <view class="hot-ranking-wrap">
+            <view class="title-wrap">
+                <text class="title">热销榜</text>
+                <navigator class="more-rank" url="">
+                    <text class="" decode="true">查看全部&emsp;></text>
+                </navigator>
+            </view>
+            <view class="ranking-wrap">
+                <view class="hot-ranking-list">
+                    <view class="hot-ranking-item">
+                        <navigator url="../bookdetail/bookdetail">
+                            <image src="../images/santi.png" />
+                            <view class="detail-wrap">
+                                <view class="book-name">
+                                    三体：死神永生
+                                    <text class="menu" decode="true">· · ·</text>
+                                </view>
+                                <view class="author-name">作者：刘慈欣</view>
                             </view>
-                            <view class="author-name">作者：刘慈欣</view>
-                        </view>
-                        <view class="detail">
-                            <text >刘慈欣创作的系列长篇科幻小说</text>
-                            <text >地球往事三部曲的第三步作品...</text>
-                        </view>
-                    </navigator>
-                </view>
-                <view class="hot-ranking-item">
-                    <navigator>
-                        <image src="../images/santi.png" />
-                        <view class="detail-wrap">
-                            <view class="book-name">
-                                三体：死神永生
-                                <text class="menu" decode="true">· · ·</text>
+                            <view class="detail">
+                                <text>刘慈欣创作的系列长篇科幻小说</text>
+                                <text>地球往事三部曲的第三步作品...</text>
                             </view>
-                            <view class="author-name">作者：刘慈欣</view>
-                        </view>
-                        <view class="detail">
-                            <text >刘慈欣创作的系列长篇科幻小说</text>
-                            <text >地球往事三部曲的第三步作品...</text>
-                        </view>
-                    </navigator>
+                        </navigator>
+                    </view>
+                    <view class="hot-ranking-item">
+                        <navigator>
+                            <image src="../images/santi.png" />
+                            <view class="detail-wrap">
+                                <view class="book-name">
+                                    三体：死神永生
+                                    <text class="menu" decode="true">· · ·</text>
+                                </view>
+                                <view class="author-name">作者：刘慈欣</view>
+                            </view>
+                            <view class="detail">
+                                <text>刘慈欣创作的系列长篇科幻小说</text>
+                                <text>地球往事三部曲的第三步作品...</text>
+                            </view>
+                        </navigator>
+                    </view>
                 </view>
             </view>
         </view>
-    </view>
+    </block>
 </view>
+<import src="../search/search" />
+<template is="search" wx:if="{{cur==2}}"/>

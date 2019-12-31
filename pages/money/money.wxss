@@ -1,0 +1,29 @@
+/* pages/money/money.wxss */
+.container {
+    box-sizing: border-box;
+    padding: 0rpx 48rpx;
+}
+.head-wrap{
+    height: 320rpx;
+    background-color: #2b323b;
+    box-sizing: border-box;
+    padding-left: 50rpx;
+    padding-top: 60rpx;
+}
+.head-wrap .title{
+    color: #75808d;
+    font-size: 40rpx;
+    margin-bottom: 20rpx;
+}
+.head-wrap .money{
+    font-size: 100rpx;
+}
+.recharge{
+    background-color: #fb6894;
+    text-align: center;
+    height: 142rpx;
+    line-height: 142rpx;
+    position: fixed;
+    bottom: 0rpx;
+    width: 100%;
+}

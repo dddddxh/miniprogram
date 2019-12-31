@@ -1,0 +1,57 @@
+<!-- pages/shopping/shopping.wxml -->
+<view class="ranking-wrap">
+    <view class="hot-ranking-list">
+        <view class="hot-ranking-item">
+            <navigator>
+                <image src="../images/weilaijianshi.png" />
+                <view class="detail-wrap">
+                    <view class="book-name">
+                        未来简史
+                        <text class="menu" decode="true">· · ·</text>
+                    </view>
+                    <view class="author-name">作者：尤瓦尔·郝拉利</view>
+                </view>
+                <view class="detail">￥56.00</view>
+            </navigator>
+        </view>
+        <view class="hot-ranking-item">
+            <navigator>
+                <image src="../images/yinhediguo.png" />
+                <view class="detail-wrap">
+                    <view class="book-name">
+                        银河帝国
+                        <text class="menu" decode="true">· · ·</text>
+                    </view>
+                    <view class="author-name">作者：艾萨克·阿西莫夫</view>
+                </view>
+                <view class="detail">￥86.00</view>
+            </navigator>
+        </view>
+        <view class="hot-ranking-item">
+            <navigator>
+                <image src="../images/haidiliangwanli.png" />
+                <view class="detail-wrap">
+                    <view class="book-name">
+                        海底两万里
+                        <text class="menu" decode="true">· · ·</text>
+                    </view>
+                    <view class="author-name">作者：儒勒·凡尔纳</view>
+                </view>
+                <view class="detail">￥99.00</view>
+            </navigator>
+        </view>
+    </view>
+</view>
+<view class="bottom">
+    <view class="price-wrap">
+        <view class="total-price">
+            <text class="total">总计(元)：</text>
+            <text class="price">241.00</text>
+        </view>
+        <view class="balance-wrap">
+            <text class="balance">余额(元)：</text>
+            <text class="price">1375.00</text>
+        </view>
+    </view>
+    <view class="btn-buy">购买</view>
+</view>
