@@ -1,24 +1,13 @@
-// pages/author/author.js
+// pages/search/search.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    msg: 1,
 
   },
-  focus: function (e) {
-    this.setData({
-      msg: 2
-    });
-  },
-  unfocus: function () {
-    this.setData({
-      msg: 1
-    });
-  },
-  
+
   /**
    * 生命周期函数--监听页面加载
    */

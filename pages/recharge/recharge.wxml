@@ -1,0 +1,13 @@
+<!--pages/recharge/recharge.wxml-->
+<view class="container">
+    <view class="head-wrap">
+        <view class="title">充值余额(元)</view>
+        <view class="money">
+            <text class="icon">￥</text>
+            <input type="text" />
+        </view>
+    </view>
+</view>
+<view class="next">
+    <navigator url="..//">下一步</navigator>
+</view>

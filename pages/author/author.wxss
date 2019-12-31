@@ -169,3 +169,14 @@
     font-size: 24rpx;
     margin-bottom: 75rpx;
 }
+.ranking-list .ranking-item .active {
+    width: 120rpx;
+    height: 44rpx;
+    text-align: center;
+    line-height: 44rpx;
+    border-radius: 8rpx;
+    background-color: rgba(0, 0, 0, 0);
+    border: 2rpx solid #545d66;
+    font-size: 24rpx;
+    margin-bottom: 75rpx;
+}
