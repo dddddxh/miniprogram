@@ -1,6 +1,7 @@
 <!-- pages/comment/comment.wxml -->
 <view class="container">
     <view class="header">
+        <text decode="{{true}}">写评论&emsp;</text>
         <text class="iconfont icon-xiepinglun"></text>
     </view>
     <view class="comment-wrap">

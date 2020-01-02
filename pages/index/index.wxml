@@ -1,14 +1,5 @@
 <!-- index.wxml -->
 <view class="container">
-    <!-- 头部 -->
-    <view class="header-wrapper" wx:if="{{cur==1}}">
-        <navigator url="../author/author">
-            <text class="iconfont icon-jiangbei"></text>
-        </navigator>
-        <navigator>
-            <text class="iconfont icon-list"></text>
-        </navigator>
-    </view>
     <!-- 搜索 -->
     <view class="scarch-wrapper">
         <view class="{{cur == 1? 'search-input':'search'}}" bindtap="search">
@@ -206,4 +197,4 @@
     </block>
 </view>
 <import src="../search/search" />
-<template is="search" wx:if="{{cur==2}}"/>
+<template is="search" wx:if="{{cur==2}}" />

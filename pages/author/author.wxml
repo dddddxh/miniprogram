@@ -1,8 +1,5 @@
 <!-- pages/author/author.wxml -->
 <view class="container">
-    <view class="header">
-        <text class="iconfont icon-list"></text>
-    </view>
     <view class="top-author">
         <view class="top top2">
             <view class="author-img">

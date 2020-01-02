@@ -46,11 +46,13 @@
                 <text class="option">我的消息</text>
                 <text class="message">6</text>
             </view>
-            <view class="operation-item">
-                <text class="option">账户余额</text>
-                <text class="balance">1375.00</text>
-                <text class="iconfont icon-zuo"></text>
-            </view>
+            <navigator url="../money/money">
+                <view class="operation-item">
+                    <text class="option">账户余额</text>
+                    <text class="balance">1375.00</text>
+                    <text class="iconfont icon-zuo"></text>
+                </view>
+            </navigator>
             <view class="operation-item">
                 <text class="option">我的评论</text>
                 <text class="iconfont icon-zuo"></text>
