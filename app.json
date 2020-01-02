@@ -1,12 +1,12 @@
 {
   "pages": [
+    "pages/bookdetail/bookdetail",
     "pages/index/index",
     "pages/fantasy/fantasy",
     "pages/explore/explore",
     "pages/comment/comment",
     "pages/classify/classify",
     "pages/bookrack/bookrack",
-    "pages/bookdetail/bookdetail",
     "pages/shopping/shopping",
     "pages/my/my",
     "pages/money/money",

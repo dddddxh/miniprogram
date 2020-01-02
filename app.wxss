@@ -1,6 +1,7 @@
 /**app.wxss**/
- @import '/pages/font/iconfont';
-page{
+
+@import '/pages/font/iconfont';
+page {
   background-color: #21272e;
   color: #fff;
 }
