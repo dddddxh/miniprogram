@@ -30,7 +30,7 @@
             <text class="iconfont icon-fenxiang"></text>
             <text>分享</text>
         </view>
-        <view class="item">
+        <view class="item" bindtap="show">
             <text class="iconfont icon-shujia"></text>
             <text>放入书架</text>
         </view>
@@ -122,6 +122,22 @@
     </view>
 </view>
 <view class="btn-bottom">
-    <view class="try">试看</view>
-    <view class="buy">购买</view>
+    <navigator>
+        <view class="try">试看</view>
+    </navigator>
+    <navigator url="../shopping/shopping">
+        <view class="buy">购买</view>
+    </navigator>
+</view>
+<view class="show" wx:if="{{show==1}}">
+    <view class="alert">
+        <view class="book-cover">
+            <image src="../images/santi.png" />
+        </view>
+        <view class="hint">
+            <view>已将这本书加入到</view>
+            <view>个人书架</view>
+        </view>
+        <view class="ok" bindtap="hide">好的</view>
+    </view>
 </view>

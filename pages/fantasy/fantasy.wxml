@@ -1,7 +1,4 @@
 <!-- pages/fantasy/fantasy.wxml -->
-<view class="header">
-    <text class="iconfont icon-list"></text>
-</view>
 <view class="ranking-wrap">
     <view class="hot-ranking-list">
         <view class="hot-ranking-item">

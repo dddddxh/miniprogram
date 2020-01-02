@@ -1,7 +1,5 @@
 <!-- pages/bookrack/bookrack.wxml -->
-<view class="header">
-    <text class="iconfont icon-list"></text>
-</view>
+
 <view class="reading-wrap">
     <view class="title-wrap">
         <text class="title">正在阅读</text>

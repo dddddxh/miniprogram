@@ -69,6 +69,9 @@
 .option-wrap .item {
     display: flex;
 }
+.option-wrap .item .active{
+    color: #eb392f;
+}
 
 .option-wrap .item .iconfont {
     color: #70758b;
@@ -208,5 +211,48 @@
     text-align: center;
     line-height: 94rpx;
     margin-right: 48rpx;
+    border-radius: 50rpx;
+}
+.show{
+    position: absolute;
+    
+    top: 0rpx;
+    left: 0rpx;
+    right: 0rpx;
+    bottom: 0rpx;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 9999;
+}
+.show .alert{
+    width: 550rpx;
+    height: 766rpx;
+    background: #373a48;
+    text-align: center;
+    display: flow-root;
+    margin: auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 50rpx;
+}
+.show .alert image{
+    width: 216rpx;
+    height: 320rpx;
+}
+.show .alert .book-cover{
+    margin-top: 80rpx;
+    margin-bottom: 55rpx;
+}
+.show .alert .hint{
+    font-size: 32rpx;
+    margin-bottom: 60rpx;
+}
+.show .alert .ok{
+    width: 422rpx;
+    height: 94rpx;
+    text-align: center;
+    line-height: 94rpx;
+    background-color: #fb6894;
+    margin: auto;
     border-radius: 50rpx;
 }
