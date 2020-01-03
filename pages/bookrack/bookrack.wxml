@@ -10,7 +10,7 @@
     <view class="newest-wrap">
         <view class="new-list">
             <view class="new-list-item">
-                <navigator url="">
+                <navigator url="../bookdetail/bookdetail">
                     <image src="../images/santi.png" />
                     <view class="book">三体：死神永生</view>
                     <text class="author-name">刘慈欣</text>

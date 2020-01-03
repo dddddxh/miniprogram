@@ -32,7 +32,8 @@
         </view>
         <view class="item" bindtap="show">
             <text class="iconfont icon-shujia"></text>
-            <text>放入书架</text>
+            <text wx:if="{{show==0}}">放入书架</text>
+            <text wx:if="{{show==2}}">已放入书架</text>
         </view>
     </view>
     <view class="detail-wrap">

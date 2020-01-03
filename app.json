@@ -1,14 +1,14 @@
 {
   "pages": [
-    "pages/bookdetail/bookdetail",
-    "pages/index/index",
-    "pages/fantasy/fantasy",
     "pages/explore/explore",
+    "pages/my/my",
+    "pages/index/index",
+    "pages/bookdetail/bookdetail",
+    "pages/fantasy/fantasy",
     "pages/comment/comment",
     "pages/classify/classify",
     "pages/bookrack/bookrack",
     "pages/shopping/shopping",
-    "pages/my/my",
     "pages/money/money",
     "pages/authordetail/authordetail",
     "pages/author/author",

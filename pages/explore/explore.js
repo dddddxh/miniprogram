@@ -6,12 +6,13 @@ Page({
    * 页面的初始数据
    */
   data: {
-    cur:1,
+    cur: 2,
+    statusBarHeight: app.globalData.statusBarHeight
   },
-  change:function(e){
+  change: function (e) {
     console.log(e)
     this.setData({
-      cur:e.target.dataset.cur
+      cur: e.target.dataset.cur
     })
   },
 

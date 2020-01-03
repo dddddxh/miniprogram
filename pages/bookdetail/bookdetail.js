@@ -14,7 +14,7 @@ Page({
   },
   hide:function(){
     this.setData({
-      show:0
+      show:2
     })
   },
   /**
