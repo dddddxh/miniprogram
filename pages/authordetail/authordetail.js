@@ -5,7 +5,18 @@ Page({
    * 页面的初始数据
    */
   data: {
+    msg: 1,
 
+  },
+  focus: function (e) {
+    this.setData({
+      msg: 2
+    });
+  },
+  unfocus: function () {
+    this.setData({
+      msg: 1
+    });
   },
 
   /**

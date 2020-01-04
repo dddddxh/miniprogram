@@ -12,10 +12,11 @@
             <view class="btn-wrap">
                 <view class="share-wrap">
                     <text class="iconfont icon-fenxiang"></text>
-                    <text class="share">分享</text>
+                    <button open-type="share" class="share">分享</button>
                 </view>
                 <view class="focus-wrap">
-                    <text class="focus">+关注</text>
+                    <view class="focus" catchtap="focus" wx:if="{{msg == 1}}">+关注</view>
+                    <view class="active" bindtap="unfocus" wx:else>已关注</view>
                 </view>
             </view>
         </view>

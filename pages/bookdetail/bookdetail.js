@@ -5,7 +5,9 @@ Page({
    * 页面的初始数据
    */
   data: {
-    show:0
+    show:0,
+    collect:0,
+    remove:0
   },
   show:function(){
     this.setData({
@@ -14,7 +16,29 @@ Page({
   },
   hide:function(){
     this.setData({
-      show:2
+      show:2,
+      remove:0
+    })
+  },
+  hidden:function(){
+    this.setData({
+      show:0,
+      remove:0
+    })
+  },
+  collect:function(){
+    this.setData({
+      collect:1
+    })
+  },
+  uncollect:function(){
+    this.setData({
+      collect:0
+    })
+  },
+  remove:function(){
+    this.setData({
+      remove:1,
     })
   },
   /**

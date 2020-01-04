@@ -68,15 +68,25 @@
 
 .option-wrap .item {
     display: flex;
-}
-.option-wrap .item .active{
-    color: #eb392f;
+    align-items: center;
 }
 
+.option-wrap .item .btn-share{
+    width: 70rpx;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    color: #fff;
+    font-weight: normal;
+    padding: 0;
+    line-height: 80rpx;
+}
 .option-wrap .item .iconfont {
     color: #70758b;
     margin-right: 20rpx;
     font-size: 40rpx;
+}
+.option-wrap .item .active{
+    color: #eb392f;
 }
 
 .detail-wrap {
