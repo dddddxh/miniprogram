@@ -1,19 +1,34 @@
 /* pages/explore/explore.wxss */
 
-.view-change {
-    text-align: right;
-    padding-right: 24rpx;
+.custom {
     position: fixed;
     top: 0rpx;
-    right: 0rpx;
+    z-index: 9999;
+    width: 100%;
+    background-color: #21272e;
+}
+
+.view-change {
+    position: fixed;
     background-color: #21272e;
     width: 100%;
 }
 
+.view-change .title {
+    display: block;
+    text-align: center;
+    transform: translateY(-38rpx);
+    position: relative;
+    z-index: 998;
+    font-size: 26rpx;
+}
+
 .view-change .iconfont {
-    margin-right: 24rpx;
     font-size: 28rpx;
     color: #71768c;
+    padding-left: 24rpx;
+    position: relative;
+    z-index: 999;
 }
 
 .view-change .active {
@@ -22,10 +37,11 @@
 
 .content {
     text-align: center;
+    
 }
 
 .content .book-cover {
-    margin-top: 90rpx;
+    margin-top: 260rpx;
 }
 
 .book-cover image {
@@ -108,23 +124,26 @@
     color: #a2a8ba;
     font-size: 24rpx;
 }
-.book-wrap .book-list{
+
+.book-wrap .book-list {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     box-sizing: border-box;
     padding: 0px 92rpx;
-    margin-top: 145rpx;
+    margin-top: 200rpx;
 }
 
-.book-wrap .book-list .book-item{
+.book-wrap .book-list .book-item {
     text-align: center;
     margin-bottom: 82rpx;
 }
+
 .book-wrap .book-list .book-item image {
     width: 268rpx;
     height: 400rpx;
 }
-.book-wrap .book-list .book-item .book-name{
+
+.book-wrap .book-list .book-item .book-name {
     margin-top: 26rpx;
 }

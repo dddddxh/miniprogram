@@ -1,9 +1,4 @@
 <!-- pages/my/my.wxml -->
-<view class="header">
-    <navigator url="../set/set">
-        <text class="iconfont icon-shezhi"></text>
-    </navigator>
-</view>
 <view class="user-wrap">
     <view class="user-info">
         <view class="user-img">
@@ -57,6 +52,12 @@
                 <text class="option">我的评论</text>
                 <text class="iconfont icon-zuo"></text>
             </view>
+            <navigator url="../set/set">
+                <view class="operation-item">
+                    <text class="option">设置</text>
+                    <text class="iconfont icon-shezhi"></text>
+                </view>
+            </navigator>
         </view>
     </view>
 </view>
