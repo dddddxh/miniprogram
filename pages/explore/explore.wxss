@@ -47,6 +47,7 @@
 .book-cover image {
     width: 390rpx;
     height: 580rpx;
+    border-radius: 12rpx
 }
 
 .content .book-detail {
@@ -142,6 +143,7 @@
 .book-wrap .book-list .book-item image {
     width: 268rpx;
     height: 400rpx;
+    border-radius: 12rpx
 }
 
 .book-wrap .book-list .book-item .book-name {
