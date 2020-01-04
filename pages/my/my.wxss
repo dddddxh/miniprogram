@@ -20,6 +20,7 @@
 .user-info .user-img image {
     width: 240rpx;
     height: 240rpx;
+    border-radius: 200rpx
 }
 
 .user-info .user-msg {
@@ -47,15 +48,19 @@
     color: #71768c;
     border-radius: 12rpx;
 }
+.user-info .share-wrap .btn-share{
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0);
+    font-weight: normal;
+    color: #71768c;
+    display: inline;
+}
 
 .user-info .share-wrap .icon-fenxiang {
     line-height: 60rpx;
     margin-right: 10rpx;
 }
 
-.user-info .share-wrap .share {
-    line-height: 60rpx;
-}
 
 .content-wrap {
     display: flex;

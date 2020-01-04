@@ -18,6 +18,7 @@
 .book-wrap .book-cover image {
     width: 216rpx;
     height: 320rpx;
+    border-radius: 12rpx
 }
 
 .book-wrap .book-set {
@@ -225,13 +226,12 @@
 }
 .show{
     position: absolute;
-    
     top: 0rpx;
     left: 0rpx;
     right: 0rpx;
     bottom: 0rpx;
     background: rgba(0, 0, 0, 0.6);
-    z-index: 9999;
+    z-index: 9998;
 }
 .show .alert{
     width: 550rpx;
@@ -244,10 +244,12 @@
     top: 50%;
     transform: translateY(-50%);
     border-radius: 50rpx;
+    z-index: 9999;
 }
 .show .alert image{
     width: 216rpx;
     height: 320rpx;
+    border-radius: 12rpx
 }
 .show .alert .book-cover{
     margin-top: 80rpx;

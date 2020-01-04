@@ -5,40 +5,48 @@ Page({
    * 页面的初始数据
    */
   data: {
-    show:0,
-    collect:0,
-    remove:0
+    show: 2,
+    collect: 0,
+    remove: 1,
+    none: true
   },
-  show:function(){
+  show: function () {
     this.setData({
-      show:1
+      show: 1
     })
   },
-  hide:function(){
+  hide: function () {
     this.setData({
-      show:2,
-      remove:0
+      show: 0,
+      remove: 0
     })
   },
-  hidden:function(){
+  hidden: function () {
     this.setData({
-      show:0,
-      remove:0
+      show: 2,
+      remove: 1
     })
   },
-  collect:function(){
+  remove: function () {
     this.setData({
-      collect:1
+      remove: 2,
+      show: 0
     })
   },
-  uncollect:function(){
+  cancel: function () {
     this.setData({
-      collect:0
+      show: 2,
+      remove: 1
     })
   },
-  remove:function(){
+  collect: function () {
     this.setData({
-      remove:1,
+      collect: 1
+    })
+  },
+  uncollect: function () {
+    this.setData({
+      collect: 0
     })
   },
   /**
